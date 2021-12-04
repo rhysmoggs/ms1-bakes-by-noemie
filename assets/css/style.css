@@ -1,0 +1,44 @@
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/***********************************navbar***********************************/
+
+.navbar-brand {
+    background-image: url("../images/logo.png"); /* The image used */
+    background-color: #ced4c6; /* Used if the image is unavailable */
+    height: 125px;
+    width: 125px;
+    background-position: center; /* Center the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+/***********************************hero-img***********************************/
+
+.hero-section { /*sort this out then commit hero-img"*/
+    height: 100vh; /* You must set a specified height  */
+    width: 100%;
+    position: relative;
+}
+
+.hero-img { /*https://www.w3schools.com/cssref/pr_background-position.asp*/
+    background-image: url("../images/flour.jpg"); /* The image used */
+    background-color: #ced4c6; /* Used if the image is unavailable */
+    height: 100%; /* You must set a specified height */
+    width: 100%;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    opacity: 0.3;
+}
+
+/***********************************hero-img writing***********************************/
+
+#h1-welcome {
+    margin-top: 0px;
+    font-size: 125px;
+    color: red;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
