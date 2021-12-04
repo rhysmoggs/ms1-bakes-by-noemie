@@ -1,23 +1,26 @@
-.container-fluid {
+/* .container-fluid {
     padding-left: 0;
     padding-right: 0;
-}
+} */
+/* used class "p-0" after container-fluid in index.html instead. which is better? */
 
 /***********************************navbar***********************************/
 
+.my-nav-color {
+    background-color: #ced4c6;
+}
+
 .navbar-brand {
-    background-image: url("../images/logo.png"); /* The image used */
-    background-color: #ced4c6; /* Used if the image is unavailable */
-    height: 125px;
-    width: 125px;
-    background-position: center; /* Center the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+    background-image: url("../images/logo.png");
+    background-color: #ced4c6; /* used if image isn't available */
+    height: 100px;
+    width: 200px;
 }
 
 /***********************************hero-img***********************************/
 
 .hero-section { /*sort this out then commit hero-img"*/
-    height: 100vh; /* You must set a specified height  */
+    height: 500px; /* You must set a specified height  */
     width: 100%;
     position: relative;
 }
@@ -30,13 +33,12 @@
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
-    opacity: 0.3;
+    opacity: 0.9;
 }
 
 /***********************************hero-img writing***********************************/
 
 #h1-welcome {
-    margin-top: 0px;
     font-size: 125px;
     color: red;
     text-align: center;

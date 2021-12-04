@@ -6,13 +6,17 @@ This is the Code Institute student template for Gitpod. We have preinstalled all
 
 You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
+## Software / 
 
+used colour picker (link) to take colour from instagram logo, applied as main bg colour/mention colour pallete in different section too.
 links to live project, github?
 links to sources, software used, 
 tinyPNG compressed images
 
-
+## Testing
+navbar - constant testing and tweaking to fit logo.png and make clear, along with responsive navbar
+- logo too large or wrapping out of navbar/container. eventually adjusted height/width correctly and used efault bootstrap navbar from their docs website. responsive down to ~300px and all the way up to xl?
+container-fluid, removed padding from default bootstrap class.
 
 ------
 
