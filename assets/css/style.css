@@ -6,21 +6,21 @@
 
 /***********************************navbar***********************************/
 .navbar-nav { 
-    margin-bottom: -41px;
+    /* margin-bottom: -41px;*//*changed font but this worked form default font*/
     font-size: 1.5rem;  /*what unit to use? fine but when small, on mobile, txt too large. adjust or create media query or bootstrap class?*/
-    font-family: 'Arimo', sans-serif; /* import this, link or @import better? */
+    font-family: 'Caladea', serif; /* import this, link or @import better? */
 }
 
 .my-nav-color {
     background-color: #ced4c6;
 }
 
-.navbar-brand {
+/* .navbar-brand {
     background-image: url("../images/logo.png");
-    background-color: #ced4c6; /* used if image isn't available */
+    background-color: #ced4c6; used if image isn't available
     height: 100px;
     width: 200px;
-}
+} */
 
 .my-navbar {
     text-transform: uppercase;
@@ -35,7 +35,7 @@
 .hero-section { /*sort this out then commit hero-img"*/
     height: 500px; /* You must set a specified height  */
     width: 100%;
-    position: relative;
+    /* position: relative; */
 }
 
 .hero-img { /*https://www.w3schools.com/cssref/pr_background-position.asp*/
@@ -47,6 +47,7 @@
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
     opacity: 0.9;
+    /* margin-top: 41px; */
 }
 
 /***********************************hero-img writing***********************************/
@@ -58,4 +59,5 @@
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
     font-family: 'Arimo', sans-serif; /* import this, link or @import better? */
     font-weight: bold;
+    /* position: fixed; */
 }

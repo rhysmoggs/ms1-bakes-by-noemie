@@ -12,6 +12,8 @@ used colour picker (link) to take colour from instagram logo, applied as main bg
 links to live project, github?
 links to sources, software used, 
 tinyPNG compressed images
+lighthouse google/chrome
+validate code - links to w3 website
 
 ## Testing
 navbar - constant testing and tweaking to fit logo.png and make clear, along with responsive navbar
