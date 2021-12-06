@@ -5,6 +5,11 @@
 /* used class "p-0" after container-fluid in index.html instead. which is better? */
 
 /***********************************navbar***********************************/
+.navbar-nav { 
+    margin-bottom: -41px;
+    font-size: 1.5rem;  /*what unit to use? fine but when small, on mobile, txt too large. adjust or create media query or bootstrap class?*/
+    font-family: 'Arimo', sans-serif; /* import this, link or @import better? */
+}
 
 .my-nav-color {
     background-color: #ced4c6;
@@ -16,6 +21,14 @@
     height: 100px;
     width: 200px;
 }
+
+.my-navbar {
+    text-transform: uppercase;
+}
+
+.my-navbar:hover { /*??do for each individual/not all navbar block? - do it bold instead*/
+    text-decoration: underline;
+} /*??also do it bold instead underline current page -font-weight*/
 
 /***********************************hero-img***********************************/
 
@@ -43,4 +56,6 @@
     color: red;
     text-align: center;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    font-family: 'Arimo', sans-serif; /* import this, link or @import better? */
+    font-weight: bold;
 }
