@@ -4,7 +4,32 @@
 } */
 /* used class "p-0" after container-fluid in index.html instead. which is better? */
 
+/***********************************jumbotron***********************************/
+
+/* Whiskey Drop reference for idea of offerbanner /*/
+
+.offer {
+    background-color: #e6c50d;/* used if image isn't available */
+    padding: 0.5rem;
+    margin-bottom: 0; /*change from default setting from 2rem to 0*/
+    border-radius: 0;
+    font-family: 'Caladea', serif;
+    text-align: center;
+}
+
+.offer p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/*clean up and seperate into more classes? headings, container, image, sizing?*/
+
 /***********************************navbar***********************************/
+
+.navbar {
+    padding: 0.5rem 0rem 0.5rem;/*changed default bootstrap setting*/
+}
+
 .navbar-nav { 
     font-size: 1.5rem;  /*what unit to use? fine but when small, on mobile, txt too large. adjust or create media query or bootstrap class?*/
     font-family: 'Caladea', serif; /* import this, link or @import better? */
@@ -23,6 +48,8 @@
     background-color: #ced4c6;/* used if image isn't available */
     height: 100px;
     width: 200px;
+    /*margin-right: 0;changed default bootstrap setting from 1rem to 0*/
+    margin: 1.5rem 0rem 1.5rem;
 }
 
 .my-navbar {
@@ -35,12 +62,12 @@
 
 .navbar-collapse {
     -ms-flex-preferred-size: 100%;
-    flex-basis: 100%;
+    flex-basis: 0%;/*change from default setting 100% to 0%*/
     -ms-flex-positive: 1;
     flex-grow: 1;
     -ms-flex-align: center;
     align-items: center;
-    text-align: center;
+    text-align: center;/*remove default setting from 2rem to 0*/
 }
 
 /***********************************hero-img***********************************/
@@ -59,7 +86,7 @@
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
-    opacity: 0.9;
+    opacity: 0.5;
 }
 
 /***********************************hero-img writing***********************************/
@@ -72,4 +99,28 @@
     font-family: 'Arimo', sans-serif; /* import this, link or @import better? */
     font-weight: bold;
     /* position: fixed; */
+}
+
+/***********************************shop options***********************************/
+
+.click-container {
+    background-image: url("../images/flour.jpg"); /* The image used */
+    background-color: #ced4c6; /* Used if the image is unavailable */
+    height: 50vh; /* You must set a specified height */
+    width: 100%;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    /* opacity: 0.5; */
+}
+
+.delivery-container {
+    background-image: url("../images/doughnuts.jpg"); /* The image used */
+    background-color: #ced4c6; /* Used if the image is unavailable */
+    height: 50vh; /* You must set a specified height */
+    width: 100%;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    /* opacity: 0.5; */
 }

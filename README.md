@@ -34,9 +34,11 @@ contains classes, both custom and alterations to bootstraps default classes
 
 
 ## Testing
-navbar - constant testing and tweaking to fit logo.png and make clear, along with responsive navbar
+used Insepct mode (ctrl shift + i on chrome, windows) to see real-time adjustments and bootstraps own classes. i then tweaked and copied the prferred styling to my own style.css
+navbar - constant testing and tweaking to fit logo.png and make clear, along with responsive navbar, including the hamburger-mobile/tablet friendly icon
 - logo too large or wrapping out of navbar/container. eventually adjusted height/width correctly and used efault bootstrap navbar from their docs website. responsive down to ~300px and all the way up to xl?
-container-fluid, removed padding from default bootstrap class.
+after acheiving a responsive nav bar I was happy with, I then adjusted the navbar-collapse class input of flex-basis: 100% to 0% and adjusted the text-align: center to center the menu options on smaller screens and stack them under the hamburger icon.
+container-fluid, removed padding from default bootstrap class using p-0 class.
 
 ------
 
