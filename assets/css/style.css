@@ -43,6 +43,7 @@
     background-color: #ced4c6;
 }
 
+/* makes this bigger */
 .navbar-brand {
     background-image: url("../images/logo.png");
     background-color: #ced4c6;/* used if image isn't available */

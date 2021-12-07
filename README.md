@@ -23,7 +23,8 @@ added links and scripts to bootstrap and all necessary plugins, fontawesome, goo
 began with a quick layout of divs/sections then fleshed out content
 navbar
 
-jumbotron
+added offer banner on very top of website above the navbar and logo, made a bright and attractive colour to draw the eyes.
+added two images linking to click and collect and home delivery section/pages on website.
 
 hero image
 
@@ -39,6 +40,9 @@ navbar - constant testing and tweaking to fit logo.png and make clear, along wit
 - logo too large or wrapping out of navbar/container. eventually adjusted height/width correctly and used efault bootstrap navbar from their docs website. responsive down to ~300px and all the way up to xl?
 after acheiving a responsive nav bar I was happy with, I then adjusted the navbar-collapse class input of flex-basis: 100% to 0% and adjusted the text-align: center to center the menu options on smaller screens and stack them under the hamburger icon.
 container-fluid, removed padding from default bootstrap class using p-0 class.
+
+initial plans of adding a jumbotron with a link to the shop, but instead opted for two images linking to click and collect and home delivery.
+
 
 ------
 
