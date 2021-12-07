@@ -15,6 +15,24 @@ tinyPNG compressed images
 lighthouse google/chrome
 validate code - links to w3 website
 
+## Building the Website
+Folllowing is the process on how I approached and built the website. I began with creating the file and folder setup/ and then added content to each file, starting with the index.html
+### index.html
+started with default htmls through ! + tab or !bcpn? for bootstrap filler for ...
+added links and scripts to bootstrap and all necessary plugins, fontawesome, google fonts 
+began with a quick layout of divs/sections then fleshed out content
+navbar
+
+jumbotron
+
+hero image
+
+footer
+
+### style.css
+contains classes, both custom and alterations to bootstraps default classes
+
+
 ## Testing
 navbar - constant testing and tweaking to fit logo.png and make clear, along with responsive navbar
 - logo too large or wrapping out of navbar/container. eventually adjusted height/width correctly and used efault bootstrap navbar from their docs website. responsive down to ~300px and all the way up to xl?
