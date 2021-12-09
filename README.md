@@ -8,12 +8,24 @@ You can safely delete this README.md file, or change it for your own project. Pl
 
 ## Software / 
 
+Balsamiq to create the wireframes
+used github, gitpod/vs code, html5, css3, bootstrap4, fontawesome5?
 used colour picker (link) to take colour from instagram logo, applied as main bg colour/mention colour pallete in different section too.
 links to live project, github?
 links to sources, software used, 
 tinyPNG compressed images
 lighthouse google/chrome
 validate code - links to w3 website
+google, slack, bootstrap documents, w3 html + css documents
+
+## User Stories
+As a first time visitor to the site, I want to easily find the information I need. In particular, I want to easily find a price guide, information on purcahsing cakes and delivery options
+etc. I also want to easily find contact information about the company. I want to be able to do this easily on mobile, tablet as well as my laptop. I want to be able to contact the business by social media or directly, and I want that to be very clear and obvious to find.
+
+
+## Site Owner Goals
+I want to bring awareness to the new brand/company, give infomation about the team and our story, to create a connection with our visitors and hopeful customers, and of course to make money via our shop. I want users to interact with us via social media, to follow us and feel that they can contact us on multiple different avenues i.e. social media links and forms through the website.
+I want to show off to the visitors of our website that we are a trusted and reputable company, that have had our products showcased in many events, food festivals and shops accross Wales and the UK, and that their money will be well spent on our products.
 
 ## Building the Website
 Folllowing is the process on how I approached and built the website. I began with creating the file and folder setup/ and then added content to each file, starting with the index.html
@@ -24,9 +36,12 @@ began with a quick layout of divs/sections then fleshed out content
 navbar
 
 added offer banner on very top of website above the navbar and logo, made a bright and attractive colour to draw the eyes.
-added two images linking to click and collect and home delivery section/pages on website.
+removed the hero image to and replaced with two images linking to click and collect and home delivery section/pages on website.
+added responsive elements to the shop link images, with them stacking on a smaller device and then displaying side-by-side on medium(larger?) devices and upwards.
+I used bootsrtraps col-12 col-md-6 class to do this, (check screen breakpoints) but have intentions to create my own custom css styling and media queries if time permits this.
+used custom css to style the buttons
 
-hero image
+added a bootstrap card but could alter this, for displaying the Meet the Team/About Us section, along with an image of a staff memeber.
 
 footer
 
@@ -35,13 +50,15 @@ contains classes, both custom and alterations to bootstraps default classes
 
 
 ## Testing
-used Insepct mode (ctrl shift + i on chrome, windows) to see real-time adjustments and bootstraps own classes. i then tweaked and copied the prferred styling to my own style.css
+used Insepct Mode (ctrl shift + i on chrome, windows) to see real-time adjustments and bootstraps own classes. i then tweaked and copied the prferred styling to my own style.css
 navbar - constant testing and tweaking to fit logo.png and make clear, along with responsive navbar, including the hamburger-mobile/tablet friendly icon
 - logo too large or wrapping out of navbar/container. eventually adjusted height/width correctly and used efault bootstrap navbar from their docs website. responsive down to ~300px and all the way up to xl?
 after acheiving a responsive nav bar I was happy with, I then adjusted the navbar-collapse class input of flex-basis: 100% to 0% and adjusted the text-align: center to center the menu options on smaller screens and stack them under the hamburger icon.
 container-fluid, removed padding from default bootstrap class using p-0 class.
 
-initial plans of adding a jumbotron with a link to the shop, but instead opted for two images linking to click and collect and home delivery.
+initial plans of adding a jumbotron with a link to the shop, but instead opted for two large images linking to click and collect and home delivery. clearner and more obvious.
+used Inspect Mode often here, to adjust the padding, margins and layout of section.
+
 
 
 ------
