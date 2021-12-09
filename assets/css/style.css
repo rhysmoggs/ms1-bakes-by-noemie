@@ -169,17 +169,32 @@ body {
     background-color: #ced4c6;
 } */
 
-.shop-container { 
+.click-container { 
     height: 50vh;
     position: relative;
-    border: 3px solid black;
-    background: url("../images/doughnuts.jpg");
+    border: 0.5px solid black;
+    border-radius: 1rem;
+    background: url("../images/cake.jpg");
     background-color: #ced4c6;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 2rem 2rem 2rem 2rem;
   }
+
+  .home-container {
+    height: 50vh;
+    position: relative;
+    border: 0.5px solid black;
+    border-radius: 1rem;
+    background: url("../images/lemon.jpg");
+    background-color: #ced4c6;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 2rem 2rem 2rem 2rem;
+  }
+  
   
   .shop-center {
     margin: 0;
@@ -193,9 +208,9 @@ body {
 /***********************************Socials***********************************/
 
 .socials-container { 
-    height: 200px;
+    height: 50px;
     position: relative;
-    border: 3px solid; 
+    margin: 2rem;
 }
   
 .insta-container {
@@ -205,4 +220,9 @@ body {
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+.insta-container a {
+    font-size: 2rem;
+    font-family: 'Caladea', serif;
 }

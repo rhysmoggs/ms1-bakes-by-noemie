@@ -14,6 +14,7 @@ used colour picker (link) to take colour from instagram logo, applied as main bg
 links to live project, github?
 links to sources, software used, 
 tinyPNG compressed images
+https://www.freeconvert.com/jfif-to-jpg to convert a jfif image to jpg
 lighthouse google/chrome
 validate code - links to w3 website
 google, slack, bootstrap documents, w3 html + css documents
@@ -29,6 +30,8 @@ I want to show off to the visitors of our website that we are a trusted and repu
 
 ## Building the Website
 Folllowing is the process on how I approached and built the website. I began with creating the file and folder setup/ and then added content to each file, starting with the index.html
+Used relative units (rem, check if I used others or need to adjust some) where applicable to ensure the webiste was proportional through all screen sizes. This provides consistency, familiarity and ease-of-use to the websites visitors and ensures the website remains stylistically sound.
+
 ### index.html
 started with default htmls through ! + tab or !bcpn? for bootstrap filler for ...
 added links and scripts to bootstrap and all necessary plugins, fontawesome, google fonts 
