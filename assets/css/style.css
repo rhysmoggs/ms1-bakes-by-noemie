@@ -8,7 +8,7 @@ body {
     background-color: #ced4c6;
 }
 
-/***********************************jumbotron***********************************/
+/***********************************offer banner***********************************/
 
 /* Whiskey Drop reference for idea of offerbanner /*/
 
@@ -54,17 +54,29 @@ body {
 }
 
 /* makes this bigger */
-.navbar-brand {
+/* .navbar-brand {
     background-image: url("../images/logo.png");
-    background-color: #ced4c6;/* used if image isn't available */
+    background-color: #ced4c6;used if image isn't available
     height: 100px;
     width: 200px;
-    /*margin-right: 0;changed default bootstrap setting from 1rem to 0*/
+    margin-right: 0;changed default bootstrap setting from 1rem to 0
+    margin: 1.5rem 0rem 1.5rem;
+} */
+
+.navbar-brand {
+    font-size: 4rem;
+    letter-spacing: 4px;
+    color: black;
+    text-align: center;
+    font-family: 'Caladea', serif;
+    background-color: #ced4c6;
+    margin-right: 0;
     margin: 1.5rem 0rem 1.5rem;
 }
 
 .my-navbar {
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .my-navbar:hover { /*??do for each individual/not all navbar block? - do it bold instead*/
@@ -81,38 +93,7 @@ body {
     text-align: center;/*remove default setting from 2rem to 0*/
 }
 
-/***********************************hero-img***********************************/
-
-/* .hero-section { sort this out then commit hero-img"
-    height: 500px; You must set a specified height 
-    width: 100%;
-    position: relative;
-}
-
-.hero-img { https://www.w3schools.com/cssref/pr_background-position.asp
-    background-image: url("../images/flour.jpg"); The image used
-    background-color: #ced4c6; Used if the image is unavailable
-    height: 100%; You must set a specified height
-    width: 100%;
-    background-position: center; Center the image
-    background-repeat: no-repeat; Do not repeat the image
-    background-size: cover; Resize the background image to cover the entire container
-    opacity: 0.5;
-} */
-
-/***********************************hero-img writing***********************************/
-
-/* #h1-welcome {
-    font-size: 125px;
-    color: red;
-    text-align: center;
-    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
-    font-family: 'Arimo', sans-serif; import this, link or @import better?
-    font-weight: bold;
-    position: fixed;
-} */
-
-/***********************************shop options***********************************/
+/***********************************shop options 1st attempt***********************************/
 
 /* .shop-container {
     padding: 2rem 2rem 2rem 2rem;
@@ -165,9 +146,11 @@ body {
     color: #fff;
 } */
 
+/***********************************shop options 2nd attempt***********************************/
 /* .shop-border {
-    background-color: #ced4c6;
-} */
+    margin-top: 4rem;
+
+}
 
 .click-container { 
     height: 50vh;
@@ -179,23 +162,24 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 2rem 2rem 2rem 2rem;
+    margin: 2rem 3rem 2rem;position the images better, margin keeps cropping images
+    right: 4rem;this is fine, but not when on smaller screens
   }
 
   .home-container {
     height: 50vh;
     position: relative;
     border: 0.5px solid black;
-    border-radius: 1rem;
+    border-radius: 10px;
     background: url("../images/lemon.jpg");
     background-color: #ced4c6;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 2rem 2rem 2rem 2rem;
+    margin: 2rem 3rem 2rem;
+    left: 4rem;this is fine, but not when on smaller screens
   }
-  
-  
+
   .shop-center {
     margin: 0;
     position: absolute;
@@ -204,6 +188,51 @@ body {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
+
+  .shop-btn {
+      background: transparent;
+      font-size: 1.5rem;
+      color: white;
+      font-family: 'Caladea', serif;
+      border: 1px solid white;
+      border-radius: 10px;
+      padding: 25px 50px;
+  }
+
+  .shop-btn:hover {
+    background: white;
+    font-size: 1.5rem;
+    color: black;
+    font-family: 'Caladea', serif;
+    border: 1px solid white;
+} */
+
+/***********************************shop options 3rd attempt***********************************/
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.pic {
+    width: 100%;/*use 100% but need to reduce original image size*/
+}
+
+.pic img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.photo-gallery {
+    display: contents;
+    align-items: center;
+}
+
+/* @media queries */
+
+
 
 /***********************************Socials***********************************/
 
@@ -225,4 +254,5 @@ body {
 .insta-container a {
     font-size: 2rem;
     font-family: 'Caladea', serif;
+    text-decoration: none;
 }
