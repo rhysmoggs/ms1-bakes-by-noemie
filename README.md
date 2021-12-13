@@ -215,7 +215,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   All content was written by the developer.
 
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
+-   This README.md document was based on CI's template, found [here](https://github.com/Code-Institute-Solutions/SampleREADME/blob/master/README.md)
+
 
 ### Media
 
@@ -226,3 +227,5 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 -   My Mentor for continuous helpful feedback.
 
 -   Tutor support at Code Institute for their support.
+
+-   The Slack community.

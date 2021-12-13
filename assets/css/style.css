@@ -34,13 +34,18 @@ ul {
 
 /***********************************navbar***********************************/
 
+@media (min-width: 768px) {
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 2.5rem;
+        padding-left: 2.5rem;
+    }
+}
+
 @media only screen and (min-width: 768px) {
     .navbar-brand {
         display: none;
     }
 }
-
-
 
 /***********************************welcome***********************************/
 
@@ -89,14 +94,14 @@ ul {
 /*https://www.youtube.com/watch?v=N4bhJ4u29Do MS1 Preparation and CSS Positioning by Suzy Bennett*/
 /*to try and rely less on bootstrap and understand more about css's own responsive options, I choose to alter my original layour with the following*/
 
-.shop-container {
+/* .shop-container {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
 }
 
 .my-photo {
-    width: 50%;/*use 100% but need to reduce original image size*/
+    width: 50%;
     padding: 3em;
 }
 
@@ -111,8 +116,6 @@ ul {
     align-items: center;
 }
 
-/* @media queries, make photos stack when smaller screen, or the opposite, change css to stack then at larger screen side-by-side*/
-
 @media only screen and (max-width: 768px) {
     .shop-container {
         display: inline-block;
@@ -120,6 +123,67 @@ ul {
     }
     
     .my-photo {
+        width: 75%;
+        padding: 0.5em;
+        margin: 2em auto;
+    }
+} */
+
+/***********************************shop buttons***********************************/
+
+/*https://www.w3schools.com/howto/howto_css_button_on_image.asp*/
+/* Container needed to position the button. Adjust the width as needed */
+.options-container {
+    position: relative;
+    width: 50%;
+    padding: 3em;
+}
+  
+/* Make the image responsive */
+.options-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+  
+/* Style the button and place it in the middle of the container/image */
+.options-container .btn-shop {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+  
+.options-container .btn-shop:hover {
+    background-color: black;
+}
+
+.shop-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.shop-section {
+    display: contents;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .shop-container {
+        display: inline-block;
+        width: 100%;
+    }
+    
+    .options-container {
         width: 75%;
         padding: 0.5em;
         margin: 2em auto;
