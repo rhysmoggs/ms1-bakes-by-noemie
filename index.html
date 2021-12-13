@@ -13,41 +13,63 @@
     <title>Bakes by Noemie | All Things Baked</title>
 </head>
 <body>
-    <!-- <div class="container-fluid p-0">
-      <div class="nav-container">
-        <nav class="navbar navbar-expand-lg navbar-light my-nav-color navbar-nav">
-          <a class="navbar-brand" href="index.html" title="company logo"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link my-navbar active" href="#">Home <span class="sr-only">(current)</span></a>
-              <a class="nav-link my-navbar" href="#">Our Story</a>
-              <a class="nav-link my-navbar" href="#">Contact Us</a>
-            </div>
-          </div>
+
+
+    
+
+
+    <!--navbar without bootstrap, simple-->
+
+    <!-- <div class="navbar-new">
+      <div class="navbar-container">
+        <a href="index.html"><span>Bakes by Noémie</span>All Things Baked</a>
+
+        <nav>
+          
         </nav>
       </div>
     </div> -->
-    
-    <!--offer banner/ whiskey drop inspiration. do I change this to a default 'alert' bootstrap with the optional dismiss X and animation?-->
-    <div class="container-fluid p-0">
-      <div class="offer">
-        <p>Order today and we guarantee that your bakes will arrive before Christmas Day. <a href="#"> Show me more!</a></p>
-      </div>
-    </div>
 
-    <!--navbar-->
-    <div class="container-fluid p-0"><!--p-0 removes bootstrap default padding to container-fluid class-->
+
+
+    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Bakes by Noémie</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Our Story</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shop</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <!--navbar bootstrap simple w/fixed navbar-->
+
+    <!-- <div class="container-fluid p-0">
       <div class="row container-logo">
         <div class="col-12 d-flex justify-content-center">
-          <a class="navbar-brand" href="index.html" title="company logo">Bakes by Noémie</a>
+          <img src="assets/images/logo.png" width="200" height="100" class="d-inline-block align-top" alt="">
         </div>
       </div>
       <div class="row container-nav">
         <div class="col d-flex justify-content-center">
-          <nav class="navbar navbar-expand-lg navbar-light my-nav-color navbar-nav">
+          <nav class="navbar fixed-top navbar-expand-sm navbar-light my-nav-color navbar-nav">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -62,70 +84,23 @@
           </nav>
         </div>
       </div>
+    </div> -->
+
+    <!--offer banner/ whiskey drop inspiration. do I change this to a default 'alert' bootstrap with the optional dismiss X and animation?-->
+
+    <div><!--removed bootstrap container-fluid as unnecessary for fixed banner-->
+      <div class="offer">
+        <p>Order today and we guarantee that your bakes will arrive before Christmas Day. <a href="#"> Show me more!</a></p>
+      </div>
     </div>
-    
-    <!-------------------------------------shop options 1st attempt------------------------------------->
-    <!-- <div class="container p-0">
-          <div class="row shop-container">
-            <div class="col">
-              <div class="row">
-                <div class="col click-container mx-5">
-                  <button type="button" class="btn btn-outline-light">Click and Collect</button>
-                </div>
-                <div class="col delivery-container mx-5">
-                  <button type="button" class="btn btn-outline-light">Home Delivery</button>
-                </div>
-              </div>
-            </div>
-          </div>
-    </div> -->
 
-    <!-------------------------------------shop options 1st attempt------------------------------------->
-    <!-- <div class="container p-0">
-      <div class="row">
-        <div class="col">
-          <div class="row shop-container">
-            <div class="image-container">
-              <div class="click-container">
-                <button type="button" class="click-button">Click and Collect</button>
-              </div>
-            </div>
-            <div class="image-container">
-              <div class="home-container">
-                <button type="button" class="btn btn-outline-light">Home Delivery</button>
-              </div>
-            </div>
-          </row>
-        </div>
-      </div>
-    </div> -->
 
-    <!-------------------------------------shop options 2nd attempt------------------------------------->
-    <!-- <div class="container p-0 shop-border">
-      <div class="row">
-        <div class="col-12 col-md-6 p-0">
-          <div class="click-container">
-            <div class="shop-center">
-              <button class="shop-btn">Click and Collect</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 p-0">
-          <div class="home-container">
-            <div class="shop-center">
-              <button type="button" class="btn btn-outline-light">Home Delivery</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
+    <!--shop section-->
 
-    <!-------------------------------------shop options 3rd attempt------------------------------------->
-
-    <div class="container">
-      <div class="photo-gallery">
-        <div class="pic"><img src="assets/images/cake.jpg" alt="photo of a cake"></div>
-        <div class="pic"><img src="assets/images/lemon.jpg" alt="photo of a lemon pie"></div>
+    <div class="shop-container">
+      <div class="options-container">
+        <div class="my-photo"><img src="assets/images/cake.jpg" alt="photo of a cake"></div>
+        <div class="my-photo"><img src="assets/images/lemon.jpg" alt="photo of a lemon pie"></div>
       </div>
     </div>
 
@@ -165,12 +140,28 @@
         </div>
       <!-- </article> -->
 
-    <div class="container-fluid p-0">
+    <section class="container-fluid p-0">
       reviews here
-    </div>
+    </section>
 
-    <div class="container-fluid p-0">
-      <footer>
+    <section class="footer section">
+      <footer class="footer-container">
+        <div class="footer-left">
+          <ul>
+            <li>
+              <a href="https://www.instagram.com/bakesbynoemie/" target="_blank" aria-current="page" aria-label="link to instagram"><i class="fab fa-instagram website"></i></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/" target="_blank" aria-label="link to facebook website"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/" target="_blank" aria-label="link to twitter website"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="https://uk.linkedin.com/" target="_blank" aria-label="link to linkedin website"><i class="fab fa-linkedin"></i></a>
+            </li>
+          </ul>
+        </div>
 
       </footer>
     </div>

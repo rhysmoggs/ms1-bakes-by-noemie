@@ -1,11 +1,12 @@
-/* .container-fluid {
-    padding-left: 0;
-    padding-right: 0;
-} */
-/* used class "p-0" after container-fluid in index.html instead. which is better? */
-
 body {
     background-color: #ced4c6;
+    margin: 0;
+    padding-top: 56px;
+}
+
+.col, .col-12 {
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 /***********************************offer banner***********************************/
@@ -30,165 +31,62 @@ body {
 
 /***********************************navbar***********************************/
 
-.navbar {
-    padding: 0.5rem 0rem 0.5rem;/*changed default bootstrap setting*/
+/* .navbar {
+    padding: 0.5rem 0rem 0.5rem;
 }
 
 .navbar-nav { 
-    font-size: 1.5rem;  /*what unit to use? fine but when small, on mobile, txt too large. adjust or create media query or bootstrap class?*/
-    font-family: 'Caladea', serif; /* import this, link or @import better? */
+    font-size: 1.5rem;
+    font-family: 'Caladea', serif;
 }
 
 .container-nav {
-    background-color: #ced4c6;
+    background-color: red;
     margin-right: 0px;
 }
 
 .container-logo {
-    background-color: #ced4c6;
+    background-color: blue;
     margin-right: 0px;
 }
 
 .my-nav-color {
-    background-color: #ced4c6;
-}
-
-/* makes this bigger */
-/* .navbar-brand {
-    background-image: url("../images/logo.png");
-    background-color: #ced4c6;used if image isn't available
-    height: 100px;
-    width: 200px;
-    margin-right: 0;changed default bootstrap setting from 1rem to 0
-    margin: 1.5rem 0rem 1.5rem;
+    background-color: pink;
 } */
 
-.navbar-brand {
-    font-size: 4rem;
-    letter-spacing: 4px;
-    color: black;
-    text-align: center;
-    font-family: 'Caladea', serif;
-    background-color: #ced4c6;
-    margin-right: 0;
-    margin: 1.5rem 0rem 1.5rem;
-}
+/* makes this bigger */
+/* .logo-brand {
+    background-image: url("../images/logo-new.png");
+    background-color: green;
+    background-repeat: no-repeat;
+    height: 170px;
+    width: 100%;
+    display: block;
+} */
 
-.my-navbar {
+
+/* .my-navbar {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
-.my-navbar:hover { /*??do for each individual/not all navbar block? - do it bold instead*/
+.my-navbar:hover {
     text-decoration: underline;
-} /*??also do it bold instead underline current page -font-weight*/
+}
 
 .navbar-collapse {
     -ms-flex-preferred-size: 100%;
-    flex-basis: 0%;/*change from default setting 100% to 0%*/
+    flex-basis: 0%;
     -ms-flex-positive: 1;
     flex-grow: 1;
     -ms-flex-align: center;
     align-items: center;
-    text-align: center;/*remove default setting from 2rem to 0*/
-}
+    text-align: center;
+} */
 
 /***********************************shop options 1st attempt***********************************/
 
-/* .shop-container {
-    padding: 2rem 2rem 2rem 2rem;
-}
-
-.image-container {
-    position: relative;
-    height: 50vh;
-    width: 50%;
-    padding: 2rem 2rem 2rem 2rem;
-}
-
-.click-container {
-    background: url("../images/flour.jpg");
-    background-color: #ced4c6;
-    height: 100%;
-    width: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
-.home-container {
-    background: url("../images/doughnuts.jpg");
-    background-color: #ced4c6;
-    height: 100%;
-    width: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
-.click-button {
-    border: 1px solid #fff;
-    border-radius: 5px;
-    background: transparent;
-    font-family: 'Arimo', sans-serif;
-    color: #fff;
-} */
-
-/***********************************shop options 2nd attempt***********************************/
-/* .shop-border {
-    margin-top: 4rem;
-
-}
-
-.click-container { 
-    height: 50vh;
-    position: relative;
-    border: 0.5px solid black;
-    border-radius: 1rem;
-    background: url("../images/cake.jpg");
-    background-color: #ced4c6;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 2rem 3rem 2rem;position the images better, margin keeps cropping images
-    right: 4rem;this is fine, but not when on smaller screens
-  }
-
-  .home-container {
-    height: 50vh;
-    position: relative;
-    border: 0.5px solid black;
-    border-radius: 10px;
-    background: url("../images/lemon.jpg");
-    background-color: #ced4c6;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 2rem 3rem 2rem;
-    left: 4rem;this is fine, but not when on smaller screens
-  }
-
-  .shop-center {
-    margin: 0;
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
-
+/*
   .shop-btn {
       background: transparent;
       font-size: 1.5rem;
@@ -209,29 +107,45 @@ body {
 
 /***********************************shop options 3rd attempt***********************************/
 
-.container {
+/*https://www.youtube.com/watch?v=N4bhJ4u29Do MS1 Preparation and CSS Positioning by Suzy Bennett*/
+/*to try and rely less on bootstrap and understand more about css's own responsive options, I choose to alter my original layour with the following*/
+
+.shop-container {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
 }
 
-.pic {
-    width: 100%;/*use 100% but need to reduce original image size*/
+.my-photo {
+    width: 50%;/*use 100% but need to reduce original image size*/
+    padding: 3rem;
 }
 
-.pic img {
+.my-photo img {
     width: 100%;
     height: auto;
     border-radius: 10px;
 }
 
-.photo-gallery {
+.options-container {
     display: contents;
     align-items: center;
 }
 
-/* @media queries */
+/* @media queries, make photos stack when smaller screen, or the opposite, change css to stack then at larger screen side-by-side*/
 
+@media only screen and (max-width: 768px) {
+    .shop-container {
+        display: inline-block;
+        width: 100%;
+    }
+    
+    .my-photo {
+        width: 75%;
+        padding: 0.5rem;
+        margin: 0 auto;
+    }
+}
 
 
 /***********************************Socials***********************************/
@@ -252,7 +166,8 @@ body {
 }
 
 .insta-container a {
-    font-size: 2rem;
+    color: black;
+    font-size: 1.5em;
     font-family: 'Caladea', serif;
     text-decoration: none;
 }
