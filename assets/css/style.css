@@ -9,13 +9,18 @@ body {
     padding-right: 0px;
 }
 
+ul {
+    list-style-type: none;
+}
+
+
 /***********************************offer banner***********************************/
 
 /* Whiskey Drop reference for idea of offerbanner /*/
 
 .offer {
     background-color: #e6c50d;/* used if image isn't available */
-    padding: 0.5rem;
+    padding: 0.5em;
     margin-bottom: 0; /*change from default setting from 2rem to 0*/
     border-radius: 0;
     font-family: 'Caladea', serif;
@@ -27,69 +32,43 @@ body {
     margin-bottom: 0;
 }
 
-/*clean up and seperate into more classes? headings, container, image, sizing?*/
-
 /***********************************navbar***********************************/
 
-/* .navbar {
-    padding: 0.5rem 0rem 0.5rem;
+@media only screen and (min-width: 768px) {
+    .navbar-brand {
+        display: none;
+    }
 }
 
-.navbar-nav { 
-    font-size: 1.5rem;
-    font-family: 'Caladea', serif;
-}
-
-.container-nav {
-    background-color: red;
-    margin-right: 0px;
-}
-
-.container-logo {
-    background-color: blue;
-    margin-right: 0px;
-}
-
-.my-nav-color {
-    background-color: pink;
-} */
-
-/* makes this bigger */
-/* .logo-brand {
-    background-image: url("../images/logo-new.png");
-    background-color: green;
-    background-repeat: no-repeat;
-    height: 170px;
-    width: 100%;
-    display: block;
-} */
 
 
-/* .my-navbar {
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
+/***********************************welcome***********************************/
 
-.my-navbar:hover {
-    text-decoration: underline;
-}
-
-.navbar-collapse {
-    -ms-flex-preferred-size: 100%;
-    flex-basis: 0%;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -ms-flex-align: center;
-    align-items: center;
+.welcome-left {
     text-align: center;
-} */
+}
+
+.welcome-left h1 {
+    font-size: 5em;
+    margin-top: 0.3em;
+    font-weight: bold;
+}
+
+.welcome-left p {
+    text-transform: uppercase;
+}
+
+.welcome-under {
+    align-items: center;
+}
+
 
 /***********************************shop options 1st attempt***********************************/
 
 /*
   .shop-btn {
       background: transparent;
-      font-size: 1.5rem;
+      font-size: 1.5em;
       color: white;
       font-family: 'Caladea', serif;
       border: 1px solid white;
@@ -99,7 +78,7 @@ body {
 
   .shop-btn:hover {
     background: white;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     color: black;
     font-family: 'Caladea', serif;
     border: 1px solid white;
@@ -118,7 +97,7 @@ body {
 
 .my-photo {
     width: 50%;/*use 100% but need to reduce original image size*/
-    padding: 3rem;
+    padding: 3em;
 }
 
 .my-photo img {
@@ -142,18 +121,18 @@ body {
     
     .my-photo {
         width: 75%;
-        padding: 0.5rem;
-        margin: 0 auto;
+        padding: 0.5em;
+        margin: 2em auto;
     }
 }
 
 
-/***********************************Socials***********************************/
+/***********************************instagram***********************************/
 
 .socials-container { 
     height: 50px;
     position: relative;
-    margin: 2rem;
+    margin: 2em;
 }
   
 .insta-container {
@@ -171,3 +150,5 @@ body {
     font-family: 'Caladea', serif;
     text-decoration: none;
 }
+
+/***********************************footer***********************************/
