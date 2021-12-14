@@ -11,6 +11,8 @@ body {
 
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -19,7 +21,7 @@ ul {
 /* Whiskey Drop reference for idea of offerbanner /*/
 
 .offer {
-    background-color: #e6c50d;/* used if image isn't available */
+    background-color: #c6878f;
     padding: 0.5em;
     margin-bottom: 0; /*change from default setting from 2rem to 0*/
     border-radius: 0;
@@ -33,6 +35,14 @@ ul {
 }
 
 /***********************************navbar***********************************/
+
+.fixed-top {
+    box-shadow: 10px 3px 10px 0px rgb(0, 0, 0, 0.2)
+}
+
+.navbar {
+    background-color: #ced4c6;
+}
 
 @media (min-width: 768px) {
     .navbar-expand-md .navbar-nav .nav-link {
@@ -94,49 +104,13 @@ ul {
 /*https://www.youtube.com/watch?v=N4bhJ4u29Do MS1 Preparation and CSS Positioning by Suzy Bennett*/
 /*to try and rely less on bootstrap and understand more about css's own responsive options, I choose to alter my original layour with the following*/
 
-/* .shop-container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.my-photo {
-    width: 50%;
-    padding: 3em;
-}
-
-.my-photo img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
-.options-container {
-    display: contents;
-    align-items: center;
-}
-
-@media only screen and (max-width: 768px) {
-    .shop-container {
-        display: inline-block;
-        width: 100%;
-    }
-    
-    .my-photo {
-        width: 75%;
-        padding: 0.5em;
-        margin: 2em auto;
-    }
-} */
-
-/***********************************shop buttons***********************************/
-
 /*https://www.w3schools.com/howto/howto_css_button_on_image.asp*/
 /* Container needed to position the button. Adjust the width as needed */
 .options-container {
     position: relative;
     width: 50%;
     padding: 3em;
+    overflow: hidden;
 }
   
 /* Make the image responsive */
@@ -144,10 +118,14 @@ ul {
     width: 100%;
     height: auto;
     border-radius: 10px;
+    transition: 2s ease-out; 
+}
+
+.options-container img:hover {
+    transform: scale(1.03);
 }
   
-/* Style the button and place it in the middle of the container/image */
-.options-container .btn-shop {
+.btn-shop {
     position: absolute;
     top: 80%;
     left: 50%;
@@ -156,14 +134,22 @@ ul {
     background-color: transparent;
     color: white;
     font-size: 16px;
+    font-weight: bold;
     padding: 12px 24px;
     border: 1px solid white;
     cursor: pointer;
     border-radius: 5px;
 }
   
-.options-container .btn-shop:hover {
-    background-color: black;
+.btn-shop:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 10px 3px 10px 0px rgb(0, 0, 0, 0.2);
+}
+
+.options-container img:hover {
+    opacity: 0.5;
 }
 
 .shop-container {
@@ -190,6 +176,17 @@ ul {
     }
 }
 
+@media only screen and (min-width: 769px) {
+    .btn-shop {
+        top: 70%;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    .btn-shop {
+        top: 75%;
+    }
+}
 
 /***********************************instagram***********************************/
 
@@ -206,6 +203,8 @@ ul {
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    padding: 2em;
+    background: #c6878f;
 }
 
 .insta-container a {
@@ -216,3 +215,17 @@ ul {
 }
 
 /***********************************footer***********************************/
+
+.footer-container {
+    background-color: #c6878f;
+    width: 100%;
+    height: 100px;
+}
+
+.footer-ul {
+    text-align: center;
+}
+
+.footer-ul li {
+    display: inline;
+}
