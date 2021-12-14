@@ -1,8 +1,8 @@
-<h1 align="center">Code Institute Website</h1>
+<h1 align="center">Bakes by Noémie Website</h1>
 
 [View the live project here.](https://codeinstitute.net)
 
-This is the main marketing website for Code Institute. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential students and partners.
+This is the main marketing website for Bakes by Noémie. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for visitors, potential customers and business opportunities.
 
 <h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
 
@@ -58,7 +58,7 @@ This is the main marketing website for Code Institute. It is designed to be resp
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+1. [Bootstrap 4.6.0:](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
     - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
@@ -215,7 +215,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   All content was written by the developer.
 
--   This README.md document was based on CI's template, found [here](https://github.com/Code-Institute-Solutions/SampleREADME/blob/master/README.md)
+-   This README.md document was based on Code Institute's template, found [here](https://github.com/Code-Institute-Solutions/SampleREADME/blob/master/README.md) .
 
 
 ### Media

@@ -34,6 +34,11 @@ ul {
     margin-bottom: 0;
 }
 
+.offer a {
+    color: white;
+    margin-left: 10px;
+}
+
 /***********************************navbar***********************************/
 
 .fixed-top {
@@ -77,29 +82,30 @@ ul {
     align-items: center;
 }
 
+/***********************************company section***********************************/
 
-/***********************************shop options 1st attempt***********************************/
 
-/*
-  .shop-btn {
-      background: transparent;
-      font-size: 1.5em;
-      color: white;
-      font-family: 'Caladea', serif;
-      border: 1px solid white;
-      border-radius: 10px;
-      padding: 25px 50px;
-  }
+.company-container {
+    width: fit-content;
+    display: flex;
+    margin: 0 auto;
+}
 
-  .shop-btn:hover {
-    background: white;
-    font-size: 1.5em;
-    color: black;
-    font-family: 'Caladea', serif;
-    border: 1px solid white;
-} */
+.company-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
 
-/***********************************shop options 3rd attempt***********************************/
+.company {
+    border: 1px solid black;
+    padding: 1.5em;
+    text-align: center;
+    margin: 3em 1.5em 3em 3em;
+}
+
+
+/***********************************shop***********************************/
 
 /*https://www.youtube.com/watch?v=N4bhJ4u29Do MS1 Preparation and CSS Positioning by Suzy Bennett*/
 /*to try and rely less on bootstrap and understand more about css's own responsive options, I choose to alter my original layour with the following*/
@@ -191,20 +197,21 @@ ul {
 /***********************************instagram***********************************/
 
 .socials-container { 
-    height: 50px;
+    width: 100%;
+    display: flex;
+}
+
+.insta-container i {
+    font-size: 3em;
     position: relative;
-    margin: 2em;
+    margin-right: 0.2em;
+    top: 0.27em;
 }
   
 .insta-container {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    margin: 0 auto;
     padding: 2em;
-    background: #c6878f;
+    text-align: center;
 }
 
 .insta-container a {
@@ -212,20 +219,83 @@ ul {
     font-size: 1.5em;
     font-family: 'Caladea', serif;
     text-decoration: none;
+    background-color: #c6878f;
+    padding: 0.55em;
 }
+
+/***********************************Meet the Team***********************************/
+
+.team-container {
+    width: fit-content;
+    display: flex;
+}
+
+.team-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.team1-container {
+    border: 1px solid black;
+    padding: 1.5em;
+    text-align: center;
+    margin: 3em 1.5em 3em 3em;
+}
+
+.team2-container {
+    border: 1px solid black;
+    padding: 1.5em;
+    text-align: center;
+    margin: 3em 1.5em 3em 1.5em;
+}
+
+.team3-container {
+    border: 1px solid black;
+    padding: 1.5em;
+    text-align: center;
+    margin: 3em 3em 3em 1.5em;
+}
+
+@media only screen and (max-width: 1024px) {
+    .team-container {
+        display: inline-block;
+    }
+
+    .team1-container {
+        margin: 2em;
+    }
+
+    .team2-container {
+        margin: 2em;
+    }
+
+    .team3-container {
+        margin: 2em;
+    }
+}
+
+
+
+
 
 /***********************************footer***********************************/
 
 .footer-container {
     background-color: #c6878f;
     width: 100%;
-    height: 100px;
+    height: auto;
+    padding: 1em;
+    bottom: 0;
 }
 
 .footer-ul {
     text-align: center;
+    margin: 0 auto;
 }
 
 .footer-ul li {
+    font-size: 1.5em;
     display: inline;
+    letter-spacing: 1.5em;
 }
