@@ -293,17 +293,18 @@ hr {
 /***********************************Meet the Team***********************************/
 
 .team-container {
-    width: fit-content;
+    width: 100%;
     display: flex;
 }
 
 .team-container img {
     max-width: 100%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 50%;
 }
 
 .team1-container {
+    width: 33%;
     border: 1px solid black;
     padding: 1.5em;
     text-align: center;
@@ -311,6 +312,7 @@ hr {
 }
 
 .team2-container {
+    width: 33%;
     border: 1px solid black;
     padding: 1.5em;
     text-align: center;
@@ -318,6 +320,7 @@ hr {
 }
 
 .team3-container {
+    width: 33%;
     border: 1px solid black;
     padding: 1.5em;
     text-align: center;
