@@ -223,6 +223,57 @@ ul {
     padding: 0.55em;
 }
 
+/***********************************How to Order***********************************/
+
+.order-container {
+    width: fit-content;
+    display: flex;
+}
+
+.order-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.order1-container {
+    border: 1px solid black;
+    padding: 1.5em;
+    text-align: center;
+    margin: 3em 1.5em 3em 3em;
+}
+
+.order2-container {
+    border: 1px solid black;
+    padding: 1.5em;
+    text-align: center;
+    margin: 3em 1.5em 3em 1.5em;
+}
+
+.order3-container {
+    border: 1px solid black;
+    padding: 1.5em;
+    text-align: center;
+    margin: 3em 3em 3em 1.5em;
+}
+
+@media only screen and (max-width: 1024px) {
+    .order-container {
+        display: inline-block;
+    }
+
+    .order1-container {
+        margin: 2em;
+    }
+
+    .order2-container {
+        margin: 2em;
+    }
+
+    .order3-container {
+        margin: 2em;
+    }
+}
 /***********************************Meet the Team***********************************/
 
 .team-container {
