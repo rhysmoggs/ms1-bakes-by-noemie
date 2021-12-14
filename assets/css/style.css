@@ -84,11 +84,11 @@ ul {
 /***********************************line break***********************************/
 
 .line-break {
-    width: 40%;
+    width: 30%;
 }
 
 hr {
-    border-top: 5px solid #c6878f;
+    border-top: 1px solid #c6878f;
 }
 
 /***********************************company section***********************************/
@@ -112,6 +112,9 @@ hr {
     margin: 3em 1.5em 3em 3em;
 }
 
+.company span {
+    font-style: italic;
+}
 
 /***********************************shop***********************************/
 
@@ -300,6 +303,7 @@ hr {
 .team-container img {
     max-width: 100%;
     height: auto;
+    border: 1px solid black;
     border-radius: 50%;
 }
 
@@ -309,6 +313,8 @@ hr {
     padding: 1.5em;
     text-align: center;
     margin: 3em 1.5em 3em 3em;
+    border-radius: 10px;
+    box-shadow: 10px 3px 10px 0px rgb(0, 0, 0, 0.2)
 }
 
 .team2-container {
@@ -317,6 +323,8 @@ hr {
     padding: 1.5em;
     text-align: center;
     margin: 3em 1.5em 3em 1.5em;
+    border-radius: 10px;
+    box-shadow: 10px 3px 10px 0px rgb(0, 0, 0, 0.2)
 }
 
 .team3-container {
@@ -325,6 +333,8 @@ hr {
     padding: 1.5em;
     text-align: center;
     margin: 3em 3em 3em 1.5em;
+    border-radius: 10px;
+    box-shadow: 10px 3px 10px 0px rgb(0, 0, 0, 0.2)
 }
 
 @media only screen and (max-width: 1024px) {
@@ -344,10 +354,6 @@ hr {
         margin: 2em;
     }
 }
-
-
-
-
 
 /***********************************footer***********************************/
 
