@@ -27,7 +27,7 @@
               <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Our Story</a>
+              <a class="nav-link" href="about.html">Our Story</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a>
@@ -70,12 +70,33 @@
 
     <!--company section-->
 
-    <section class="company-section">
-      <div class="company-container">
-        <div class="company">
-          <img src="assets/images/logo.png" alt="photo of a woman">
-          <p>I am both the business owner and head-baker of Bakes by Noémie. French-Canadian born and started the company in summer 2020.</p>
-        </div>
+    <section class="form-section">
+      <div class="form-container">
+        <h1>Send Us a Message</h1>
+        <p>Tell us what's on your mind, and we'll get back to you as soon as possible, thank you!</p>
+
+        <form action="https://formdump.codeinstitute.net" method="POST">
+            <fieldset>
+              <div>
+                <label for="name-field">Name</label>
+                <input id="name-field" type="text" name="full_name" placeholder="Your name here" required="">
+              </div>
+              <div>
+                <label for="email-field">Email</label>
+                <input id="email-field" type="email" name="email" placeholder="Your email here" required="">
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <label for="message">What's on your mind?</label>
+              <br>
+              <textarea id="feedback" rows="4" cols="87" name="feedback" placeholder="Your message here" required=""></textarea>
+            </fieldset>
+
+            <button type="submit">
+              <strong>Send</strong>
+            </button>
+        </form>
       </div>
     </section>
 
