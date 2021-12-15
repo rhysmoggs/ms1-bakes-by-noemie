@@ -72,7 +72,7 @@
 
     <section class="form-section">
       <div class="form-container">
-        <h1>Send Us a Message</h1>
+        <h4>Send Us a Message</h4>
         <p>Tell us what's on your mind, and we'll get back to you as soon as possible, thank you!</p>
 
         <form action="https://formdump.codeinstitute.net" method="POST">
@@ -88,12 +88,12 @@
             </fieldset>
 
             <fieldset>
-              <label for="message">What's on your mind?</label>
               <br>
-              <textarea id="feedback" rows="4" cols="87" name="feedback" placeholder="Your message here" required=""></textarea>
+              <label for="message">What's on your mind?</label>
+              <textarea id="feedback" name="feedback" placeholder="Your message here" required=""></textarea>
             </fieldset>
 
-            <button type="submit">
+            <button class="button-form" type="submit">
               <strong>Send</strong>
             </button>
         </form>
@@ -104,24 +104,26 @@
 
 
 
-    <!--Meet the Team-->
+    <!--Business info-->
 
-    <section class="team-section">
-      <div class="team-container">
-        <div class="team1-container">
-          <img src="assets/images/girl1.jpg" alt="photo of a woman">
-          <h2>Noémie</h2>
-          <p>I am both the business owner and head-baker of Bakes by Noémie. French-Canadian born and started the company in summer 2020.</p>
+    <section class="business-section">
+      <div class="business-container">
+        <div class="opening-container">
+          <img src="assets/images/logo.png" alt="photo of a woman">
+          <h4>Opening Times</h4>
+          <hr>
+          <p>Mon - Fri: 10:00 - 18:00</p>
+          <p>Sat: 10:00 - 14:00</p>
+          <p>Sun: Closed</p>
         </div>
-        <div class="team2-container">
-          <img src="assets/images/girl2.jpg" alt="photo of a man">
-          <h2>Eira</h2>
-          <p>The logistical branch of the company.</p>
-        </div>
-        <div class="team3-container">
-          <img src="assets/images/girl3.jpg" alt="photo of a man">
-          <h2>Seren</h2>
-          <p>Thank you to our investor.</p>
+        <div class="address-container">
+          <div class="address-style">
+            <h4>Address</h4>
+            <p>Bakes by Noémie<br>Pemberton Park<br>Llanelli<br>Wales<br>SA14 9UZ</p>
+          </div>
+          <div class="map-container">
+            <iframe title="Google Maps showing company location" id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9895.951126864631!2d-4.1282302!3d51.6783667!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486ef209f35ade17%3A0xee15a41860c7b3fd!2sParc%20y%20Scarlets!5e0!3m2!1sen!2suk!4v1639572287844!5m2!1sen!2suk" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
         </div>
       </div>
     </section>
