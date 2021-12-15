@@ -106,13 +106,11 @@ hr {
 }
 
 .company {
-    border: 1px solid black;
-    padding: 1.5em;
+    padding: 1em;
     text-align: center;
-    margin: 3em 1.5em 3em 3em;
 }
 
-.company span {
+.company p {
     font-style: italic;
 }
 
@@ -126,7 +124,7 @@ hr {
 .options-container {
     position: relative;
     width: 50%;
-    padding: 3em;
+    padding: 2.5em;
     overflow: hidden;
 }
   
@@ -293,7 +291,8 @@ hr {
         margin: 2em;
     }
 }
-/***********************************Meet the Team contact.html***********************************/
+
+/***********************************Meet the Team - contact.html***********************************/
 
 .team-container {
     width: 100%;
@@ -446,6 +445,65 @@ input, textarea {
 }
 
 
+/***********************************How to Order shop.html***********************************/
+
+.order-container {
+    width: 100%;
+    display: flex;
+}
+
+.order-container i {
+    max-width: 100%;
+    height: auto;
+}
+
+.order1-container {
+    width: 33%;
+    border: 1px solid black;
+    padding: 1.5em;
+    text-align: center;
+    margin: 3em 1.5em 3em 3em;
+    border-radius: 10px;
+    box-shadow: 10px 3px 10px 0px rgb(0, 0, 0, 0.2);
+}
+
+.order2-container {
+    width: 33%;
+    border: 1px solid black;
+    padding: 1.5em;
+    text-align: center;
+    margin: 3em 1.5em 3em 1.5em;
+    border-radius: 10px;
+    box-shadow: 10px 3px 10px 0px rgb(0, 0, 0, 0.2);
+}
+
+.order3-container {
+    width: 33%;
+    border: 1px solid black;
+    padding: 1.5em;
+    text-align: center;
+    margin: 3em 3em 3em 1.5em;
+    border-radius: 10px;
+    box-shadow: 10px 3px 10px 0px rgb(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 1024px) {
+    .order-container {
+        display: inline-block;
+    }
+
+    .order1-container {
+        margin: 2em;
+    }
+
+    .order2-container {
+        margin: 2em;
+    }
+
+    .order3-container {
+        margin: 2em;
+    }
+}
 
 
 /***********************************footer***********************************/
