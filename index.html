@@ -33,7 +33,7 @@
               <a class="nav-link" href="contact.html">Contact Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Shop</a>
+              <a class="nav-link" href="shop.html">Shop</a>
             </li>
           </ul>
         </div>
@@ -45,7 +45,29 @@
 
     <div><!--removed bootstrap container-fluid as unnecessary for fixed banner-->
       <div class="offer">
-        <p>Order today and we guarantee that your bakes will arrive before Christmas Day.<a href="#">Show me more.</a></p>
+        <p>Order today and we guarantee that your bakes will arrive before Christmas Day.<a href="shop.html" aria-label="link to shop.html" data-toggle="modal" data-target="#my-modal">Show me more.</a></p>
+      </div>
+    </div>
+
+    <!-- modal -->
+
+    <div class="modal" id="my-modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Welcome!</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Here's a 10% discount on your order.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -57,9 +79,6 @@
         <div class="welcome-left">
           <h1>Bakes by Noémie</h1>
           <p>All Things Baked</p>
-        </div>
-        <div class="welcome-under">
-          <a href=""></a>
         </div>
       </div>
     </section>
@@ -73,7 +92,7 @@
     <section class="company-section">
       <div class="company-container">
         <div class="company">
-          <p>Bite-sized, inventive Welsh bakery, creating patisseries, cakes and all things baked.</p>
+          <h6>Bite-sized, inventive Welsh bakery, creating patisseries, cakes and all things baked.</h6>
         </div>
       </div>
     </section>
@@ -85,11 +104,11 @@
       <div class="shop-container">
         <div class="options-container">
           <img src="assets/images/cake.jpg" alt="photo of a cake">
-          <button class="btn-shop">Home Delivery</button>
+          <a href="shop.html" class="btn-shop" aria-label="link to shop.html">Home Delivery</a>
         </div>
         <div class="options-container">
           <img src="assets/images/lemon.jpg" alt="photo of a lemon pie">
-          <button class="btn-shop">Click &amp; Collect</button>
+          <a href="shop.html" class="btn-shop" aria-label="link to shop.html">Click &amp; Collect</a>
         </div>
       </div>
     </div>  
@@ -105,28 +124,28 @@
 
     <!--How to Order-->
 
-    <section class="order-section">
-      <div class="order-container">
-        <div class="order1-container">
-          <i class="fas fa-edit fa-3x"></i>
-          <h3>Choose how to receive your cakes </h3>
-          <p>Choose your preferred method of receiving your baked goods.</p>
+    <section class="review-section">
+      <div class="review-container">
+        <div class="review1-container">
+          <i class="fas fa-quote-left"></i>
+          <p>I haven't stopped shaking her hand.</p>
+          <h3>Paul Hollywood</h3>
         </div>
-        <div class="order2-container">
-          <i class="fas fa-shopping-basket fa-3x"></i>
-          <h3>Fill your Basket</h3>
-          <p>Fill your basket to the brim and dont forget to take advantage of our subscription service.</p>
+        <div class="review2-container">
+          <i class="fas fa-quote-left fa-2x"></i>
+          <p>My protogee - You simply must try the Irish creme pat.</p>
+          <h3>Mary Berry</h3>
         </div>
-        <div class="order3-container">
-          <i class="fas fa-cash-register fa-3x"></i>
-          <h3>Pay Online</h3>
-          <p>Pay online or choose from a range of payment options.</p>
+        <div class="review3-container">
+          <i class="fas fa-quote-left fa-3x"></i>
+          <p>Tidy Enough.</p>
+          <h3>Dai</h3>
         </div>
       </div>
     </section>
 
 
-    <!---footer--->
+     <!--footer-->
 
     <section class="footer-section">
       <footer class="footer-container">

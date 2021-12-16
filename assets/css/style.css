@@ -61,6 +61,10 @@ ul {
     margin-left: 10px;
 }
 
+.offer a:hover {
+    font-weight: bold;
+    text-decoration: none;
+}
 /***********************************welcome***********************************/
 
 .welcome-left {
@@ -75,10 +79,6 @@ ul {
 
 .welcome-left p {
     text-transform: uppercase;
-}
-
-.welcome-under {
-    align-items: center;
 }
 
 /***********************************line break***********************************/
@@ -106,11 +106,10 @@ hr {
 }
 
 .company {
-    padding: 1em;
     text-align: center;
 }
 
-.company p {
+.company h6 {
     font-style: italic;
 }
 
@@ -146,21 +145,22 @@ hr {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: transparent;
+    background-color: #c6878f;
+    border: 0;
     color: white;
     font-size: 16px;
     font-weight: bold;
     padding: 12px 24px;
-    border: 1px solid white;
     cursor: pointer;
-    border-radius: 5px;
+    text-decoration: none;
 }
   
 .btn-shop:hover {
-    color: black;
+    color: #c6878f;
     background-color: white;
     border: 1px solid black;
     box-shadow: 10px 3px 10px 0px rgb(0, 0, 0, 0.2);
+    text-decoration: none;
 }
 
 .options-container img:hover {
@@ -232,19 +232,19 @@ hr {
     padding: 0.55em;
 }
 
-/***********************************How to Order index.html***********************************/
+/***********************************Review - index.html***********************************/
 
-.order-container {
+.review-container {
     width: 100%;
     display: flex;
 }
 
-.order-container i {
+.review-container i {
     max-width: 100%;
     height: auto;
 }
 
-.order1-container {
+.review1-container {
     width: 33%;
     border: 1px solid black;
     padding: 1.5em;
@@ -254,7 +254,7 @@ hr {
     box-shadow: 10px 3px 10px 0px rgb(0, 0, 0, 0.2);
 }
 
-.order2-container {
+.review2-container {
     width: 33%;
     border: 1px solid black;
     padding: 1.5em;
@@ -264,7 +264,7 @@ hr {
     box-shadow: 10px 3px 10px 0px rgb(0, 0, 0, 0.2);
 }
 
-.order3-container {
+.review3-container {
     width: 33%;
     border: 1px solid black;
     padding: 1.5em;
@@ -275,22 +275,44 @@ hr {
 }
 
 @media only screen and (max-width: 1024px) {
-    .order-container {
+    .review-container {
         display: inline-block;
     }
 
-    .order1-container {
+    .review1-container {
         margin: 2em;
     }
 
-    .order2-container {
+    .review2-container {
         margin: 2em;
     }
 
-    .order3-container {
+    .review3-container {
         margin: 2em;
     }
 }
+
+/***********************************Story - contact.html***********************************/
+
+.story-container {
+    position: relative;
+    text-align: center;
+}
+
+.story-container img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid black;
+}
+
+.story-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #c6878f;
+}
+
 
 /***********************************Meet the Team - contact.html***********************************/
 
@@ -361,11 +383,11 @@ hr {
 }
 
 .form-container {
-    width: 50%;
+    width: 40%;
     box-sizing: border-box;
     background-color: #c6878f;
     border-radius: 10px;
-    margin: 0 auto;
+    margin: 4em auto 1em auto;
     border: 1px solid black;
     padding: 2em;
     box-shadow: 10px 3px 10px 0px rgb(0, 0, 0, 0.2);
@@ -404,7 +426,7 @@ input, textarea {
 } */
 
 .opening-container {
-    width: 33%;
+    width: 25%;
     border: 1px solid black;
     padding: 1.5em;
     text-align: center;
@@ -414,11 +436,21 @@ input, textarea {
 }
 
 .address-container {
-    width: 66%;
+    width: 50%;
     border: 1px solid black;
     padding: 1.5em;
     text-align: left;
     display: flex;
+    margin: 3em 1.5em 3em 1.5em;
+    border-radius: 10px;
+    box-shadow: 10px 3px 10px 0px rgb(0, 0, 0, 0.2);
+}
+
+.contact-container {
+    width: 25%;
+    border: 1px solid black;
+    padding: 1.5em;
+    text-align: center;
     margin: 3em 3em 3em 1.5em;
     border-radius: 10px;
     box-shadow: 10px 3px 10px 0px rgb(0, 0, 0, 0.2);
@@ -459,7 +491,6 @@ input, textarea {
 
 .order1-container {
     width: 33%;
-    border: 1px solid black;
     padding: 1.5em;
     text-align: center;
     margin: 3em 1.5em 3em 3em;
@@ -469,7 +500,6 @@ input, textarea {
 
 .order2-container {
     width: 33%;
-    border: 1px solid black;
     padding: 1.5em;
     text-align: center;
     margin: 3em 1.5em 3em 1.5em;
@@ -479,13 +509,18 @@ input, textarea {
 
 .order3-container {
     width: 33%;
-    border: 1px solid black;
     padding: 1.5em;
     text-align: center;
     margin: 3em 3em 3em 1.5em;
     border-radius: 10px;
     box-shadow: 10px 3px 10px 0px rgb(0, 0, 0, 0.2);
 }
+
+/* .order-container .arrows {
+    position: relative;
+    top: 125px;
+    color: #c6878f;
+} */
 
 @media only screen and (max-width: 1024px) {
     .order-container {
