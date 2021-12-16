@@ -113,97 +113,46 @@ hr {
     font-style: italic;
 }
 
-/***********************************shop***********************************/
+/******************hero section*****************/
 
-/*https://www.youtube.com/watch?v=N4bhJ4u29Do MS1 Preparation and CSS Positioning by Suzy Bennett*/
-/*to try and rely less on bootstrap and understand more about css's own responsive options, I choose to alter my original layour with the following*/
-
-/*https://www.w3schools.com/howto/howto_css_button_on_image.asp*/
-/* Container needed to position the button. Adjust the width as needed */
-.options-container {
+/* .hero-container {
     position: relative;
-    width: 50%;
-    padding: 2.5em;
-    overflow: hidden;
-}
-  
-/* Make the image responsive */
-.options-container img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    transition: 2s ease-out; 
+    text-align: center;
 }
 
-.options-container img:hover {
-    transform: scale(1.03);
+.hero-container img {
+    max-width: 1200px;
+    height: auto;
+    border: 1px solid black;
 }
-  
-.btn-shop {
+
+.hero-text {
     position: absolute;
-    top: 80%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     background-color: #c6878f;
-    border: 0;
-    color: white;
-    font-size: 16px;
-    font-weight: bold;
-    padding: 12px 24px;
-    cursor: pointer;
-    text-decoration: none;
-}
+} */
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/hero.jpg");
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
   
-.btn-shop:hover {
-    color: #c6878f;
-    background-color: white;
-    border: 1px solid black;
-    box-shadow: 10px 3px 10px 0px rgb(0, 0, 0, 0.2);
-    text-decoration: none;
-}
+   .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
 
-.options-container img:hover {
-    opacity: 0.5;
-}
-
-.shop-container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.shop-section {
-    display: contents;
-    align-items: center;
-}
-
-@media only screen and (max-width: 768px) {
-    .shop-container {
-        display: inline-block;
-        width: 100%;
-    }
-    
-    .options-container {
-        width: 75%;
-        padding: 0.5em;
-        margin: 2em auto;
-    }
-}
-
-@media only screen and (min-width: 769px) {
-    .btn-shop {
-        top: 70%;
-    }
-}
-
-@media only screen and (min-width: 1201px) {
-    .btn-shop {
-        top: 75%;
-    }
-}
-
-/***********************************instagram***********************************/
+/***********************************Instagram***********************************/
 
 .socials-container { 
     width: 100%;
@@ -476,6 +425,95 @@ input, textarea {
     display: inline;
 }
 
+/***********************************Delivery Options shop.html***********************************/
+
+/*https://www.youtube.com/watch?v=N4bhJ4u29Do MS1 Preparation and CSS Positioning by Suzy Bennett*/
+/*to try and rely less on bootstrap and understand more about css's own responsive options, I choose to alter my original layour with the following*/
+
+/*https://www.w3schools.com/howto/howto_css_button_on_image.asp*/
+/* Container needed to position the button. Adjust the width as needed */
+.options-container {
+    position: relative;
+    width: 50%;
+    padding: 2.5em;
+    overflow: hidden;
+}
+  
+/* Make the image responsive */
+.options-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: 2s ease-out; 
+}
+
+.options-container img:hover {
+    transform: scale(1.03);
+}
+  
+.btn-shop {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #c6878f;
+    border: 0;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 24px;
+    cursor: pointer;
+    text-decoration: none;
+}
+  
+.btn-shop:hover {
+    color: #c6878f;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 10px 3px 10px 0px rgb(0, 0, 0, 0.2);
+    text-decoration: none;
+}
+
+.options-container img:hover {
+    opacity: 0.5;
+}
+
+.shop-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.shop-section {
+    display: contents;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .shop-container {
+        display: inline-block;
+        width: 100%;
+    }
+    
+    .options-container {
+        width: 75%;
+        padding: 0.5em;
+        margin: 2em auto;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .btn-shop {
+        top: 70%;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    .btn-shop {
+        top: 75%;
+    }
+}
 
 /***********************************How to Order shop.html***********************************/
 
