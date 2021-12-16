@@ -32,11 +32,11 @@ ul {
     }
 }
 
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
     .navbar-brand {
         display: none;
     }
-}
+} */
 
 /***********************************offer banner***********************************/
 
@@ -203,7 +203,7 @@ hr {
     padding: 0.55em;
 }
 
-/***********************************Review - index.html***********************************/
+/***********************************Review & Subscribe - index.html***********************************/
 
 .review-container {
     width: 100%;
@@ -235,15 +235,15 @@ hr {
     box-shadow: 10px 3px 10px 0px rgb(0, 0, 0, 0.2);
 }
 
-/* .review3-container {
+.sub-container {
     width: 33%;
-    border: 1px solid black;
-    padding: 1.5em;
-    text-align: center;
-    margin: 3em 3em 3em 1.5em;
+    background-color: #c6878f;
     border-radius: 10px;
+    margin: 3em 3em 3em 1.5em;
+    border: 1px solid black;
+    padding: 2em;
     box-shadow: 10px 3px 10px 0px rgb(0, 0, 0, 0.2);
-} */
+}
 
 @media only screen and (max-width: 1024px) {
     .review-container {
@@ -251,29 +251,19 @@ hr {
     }
 
     .review1-container {
-        margin: 2em;
+        margin: 3em auto;
+        width: 60%;
     }
 
     .review2-container {
-        margin: 2em;
+        margin: 3em auto;
+        width: 60%;
     }
 
-    /* .review3-container {
-        margin: 2em;
-    } */
-}
-
-/***********************************Subscribe - index.html***********************************/
-
-.sub-container {
-    width: 33%;
-    box-sizing: border-box;
-    background-color: #c6878f;
-    border-radius: 10px;
-    margin: 3em 1.5em 3em 3em;
-    border: 1px solid black;
-    padding: 2em;
-    box-shadow: 10px 3px 10px 0px rgb(0, 0, 0, 0.2);
+    .sub-container {
+        margin: 3em auto;
+        width: 40%;
+    }
 }
 
 label {
