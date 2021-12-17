@@ -38,7 +38,7 @@ This is the website for Bakes by Noémie. It is designed to be responsibe and ac
     -   #### Typography
         -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
     -   #### Imagery
-        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+        -   The use of photography is vital. Customers are drawn by what they see, espcially in the baking industry. All images of the products are the developers own. The photographs used are large, light/bright, colourful and hope to entice customers into visiting the shop and purchasing the baked goods. 
 
 *   ### Wireframes
 
@@ -50,7 +50,7 @@ This is the website for Bakes by Noémie. It is designed to be responsibe and ac
 
 ## Features
 
--   Responsive on all device sizes
+-   Responsive on all device sizes - state optimum px?
 
 -   Interactive elements
 

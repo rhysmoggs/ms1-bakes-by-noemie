@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
+
 body {
     background-color: #ced4c6;
     margin: 0;
     padding-top: 56px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .col, .col-12 {
@@ -75,6 +78,7 @@ ul {
     font-size: 5em;
     margin-top: 0.3em;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .welcome-left p {
@@ -217,7 +221,6 @@ hr {
 
 .review1-container {
     width: 33%;
-    border: 1px solid black;
     padding: 1.5em;
     text-align: center;
     margin: 3em 1.5em 3em 3em;
@@ -227,7 +230,6 @@ hr {
 
 .review2-container {
     width: 33%;
-    border: 1px solid black;
     padding: 1.5em;
     text-align: center;
     margin: 3em 1.5em 3em 1.5em;
@@ -309,25 +311,39 @@ input {
 
 /***********************************Story - contact.html***********************************/
 
-.story-container {
-    position: relative;
-    text-align: center;
+.story-section {
+    display: flex;
+    justify-content: center;
 }
 
-.story-container img {
-    max-width: 100%;
+.image-container {
     height: auto;
-    border: 1px solid black;
+    margin: 2em;
+    box-shadow: 10px 3px 10px 0px rgb(0, 0, 0, 0.2);
 }
 
-.story-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.text-container {
+    width: 50%;
+    margin: auto 2em;
     background-color: #c6878f;
+    padding: 2em;
+    box-shadow: 10px 3px 10px 0px rgb(0, 0, 0, 0.2);
 }
 
+.story-section img {
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .story-section {
+        display: inline-block;
+    }
+
+    .image-container {
+        height: auto;
+        margin: 0 auto;
+    }
+}
 
 /***********************************Meet the Team - contact.html***********************************/
 
@@ -341,11 +357,11 @@ input {
     height: auto;
     border: 1px solid black;
     border-radius: 50%;
+    margin: 1em;
 }
 
 .team1-container {
     width: 33%;
-    border: 1px solid black;
     padding: 1.5em;
     text-align: center;
     margin: 3em 1.5em 3em 3em;
@@ -355,7 +371,6 @@ input {
 
 .team2-container {
     width: 33%;
-    border: 1px solid black;
     padding: 1.5em;
     text-align: center;
     margin: 3em 1.5em 3em 1.5em;
@@ -365,7 +380,6 @@ input {
 
 .team3-container {
     width: 33%;
-    border: 1px solid black;
     padding: 1.5em;
     text-align: center;
     margin: 3em 3em 3em 1.5em;
@@ -442,7 +456,6 @@ input, textarea {
 
 .opening-container {
     width: 25%;
-    border: 1px solid black;
     padding: 1.5em;
     text-align: center;
     margin: 3em 1.5em 3em 3em;
@@ -452,7 +465,6 @@ input, textarea {
 
 .address-container {
     width: 50%;
-    border: 1px solid black;
     padding: 1.5em;
     text-align: left;
     display: flex;
@@ -463,7 +475,6 @@ input, textarea {
 
 .contact-container {
     width: 25%;
-    border: 1px solid black;
     padding: 1.5em;
     text-align: center;
     margin: 3em 3em 3em 1.5em;
