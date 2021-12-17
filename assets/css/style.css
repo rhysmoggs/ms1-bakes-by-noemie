@@ -355,8 +355,26 @@ input {
     }
 
     .image-container {
-        height: auto;
-        margin: 0 auto;
+        width: fit-content;
+        margin: 2em auto;
+    }
+
+    .text-container {
+        width: 75%;
+        margin: 3em auto;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .image-container {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .image-container {
+        width: 75%;
     }
 }
 
@@ -408,17 +426,27 @@ input {
     }
 
     .team1-container {
-        margin: 2em;
+        margin: 3em auto;
+        width: 60%;
     }
 
     .team2-container {
-        margin: 2em;
+        margin: 3em auto;
+        width: 60%;
     }
 
     .team3-container {
-        margin: 2em;
+        margin: 3em auto;
+        width: 60%;
     }
 }
+
+@media only screen and (max-width: 480px) {
+    .team-container img {
+        max-width: 75%;
+    }
+}
+
 
 /***********************************Message Us - contact.html***********************************/
 
@@ -581,9 +609,23 @@ input, textarea {
     }
     
     .options-container {
-        width: 75%;
+        width: 90%;
         padding: 0.5em;
         margin: 2em auto;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .btn-shop {
+        font-size: smaller;
+        padding: 6px 12px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .btn-shop {
+        font-size: small;
+        padding: 6px 12px;
     }
 }
 
