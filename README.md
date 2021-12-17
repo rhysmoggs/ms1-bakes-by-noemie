@@ -2,7 +2,7 @@
 
 [View the live project here.](https://codeinstitute.net)
 
-This is the main marketing website for Bakes by Noémie. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for visitors, potential customers and business opportunities.
+This is the website for Bakes by Noémie. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for visitors, potential customers and business opportunities.
 
 <h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
 
@@ -12,24 +12,29 @@ This is the main marketing website for Bakes by Noémie. It is designed to be re
 
     -   #### First Time Visitor Goals
 
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
-        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+        1. As a New Visitor, I want to easily understand the main purpose of the site and learn more about the company.
+        2. As a New Visitor, I want to be able to easily navigate throughout the site to find content.
+        3. As a New Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted.
+        4. As a New Visitor, I want to locate their social media links to see their followings on social media to determine how trusted and known they are.
 
     -   #### Returning Visitor Goals
 
-        1. As a Returning Visitor, I want to find information about coding challenges.
+        1. As a Returning Visitor, I want to find information about the company's background, their stroy and growth.
         2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
         3. As a Returning Visitor, I want to find community links.
+        4. As a Returning Visitor, I want to be able to contact the company in many different ways.
+        5. As a Returning Visitor, I want to be able to access the shop.
 
     -   #### Frequent User Goals
-        1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-        2. As a Frequent User, I want to check to see if there are any new blog posts.
-        3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+        1. As a Frequent User, I want to check to see if there are any newly added products to the shop.
+        3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or company.
 
 -   ### Design
     -   #### Colour Scheme
-        -   The two main colours used are Code Insititue red, and white.
+        -   The main colours used on the Bakes by Noémie website are ash gray (#c6878f), puce (#c6878f) and white (#fff). There is a small amount of navy purple (#5b507a) found to help with contrasting on the index.html hero image.
+        - The ash gray colour came from using [Eye Dropper](https://eyedropper.org/), a colour picker on Bakes by Noémie's instagram page and the logo background colour.
+        -   This inspired the colour theme throughout, using pastel colours and some white/black contrasted text or backgrounds for readibility reasons. 
+        -   I used the [Coolors](https://coolors.co/ced4c6-c6878f-5b507a) website to help choose complimentary colours. 
     -   #### Typography
         -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
     -   #### Imagery

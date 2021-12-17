@@ -245,6 +245,19 @@ hr {
     box-shadow: 10px 3px 10px 0px rgb(0, 0, 0, 0.2);
 }
 
+label {
+    display: block;
+}
+
+input {
+    width: 100%;
+}
+
+.button-sub {
+    width: 100%;
+    border: 1px solid grey;
+}
+
 @media only screen and (max-width: 1024px) {
     .review-container {
         display: inline-block;
@@ -266,18 +279,26 @@ hr {
     }
 }
 
-label {
-    display: block;
-}
+/* @media only screen and (max-width: 768px) {
+    .review-container {
+        display: inline-block;
+    }
 
-input {
-    width: 100%;
-}
+    .review1-container {
+        margin: 3em auto;
+        width: 60%;
+    }
 
-.button-sub {
-    width: 100%;
-    border: 1px solid grey;
-}
+    .review2-container {
+        margin: 3em auto;
+        width: 60%;
+    }
+
+    .sub-container {
+        margin: 3em auto;
+        width: 40%;
+    }
+} */
 
 /***********************************Story - contact.html***********************************/
 
