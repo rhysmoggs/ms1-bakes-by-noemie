@@ -178,6 +178,20 @@ hr {
     text-decoration: none;
 }
 
+@media only screen and (max-width: 480px) {
+    .hero-text h1 {
+        font-size: 3em;
+    }
+
+    .hero-text h4 {
+        font-size: small;
+    }
+
+    .hero-text p {
+        font-size: smaller;
+    }
+}
+
 /***********************************Instagram***********************************/
 
 .socials-container { 
@@ -217,6 +231,7 @@ hr {
 .review-container i {
     max-width: 100%;
     height: auto;
+    margin: 0.5em;
 }
 
 .review1-container {
@@ -295,7 +310,7 @@ input {
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 480px) {
     .review1-container {
         width: 90%;
     }
@@ -594,6 +609,7 @@ input, textarea {
 .order-container i {
     max-width: 100%;
     height: auto;
+    margin: 0.5em;
 }
 
 .order1-container {
@@ -623,12 +639,6 @@ input, textarea {
     box-shadow: 10px 3px 10px 0px rgb(0, 0, 0, 0.2);
 }
 
-/* .order-container .arrows {
-    position: relative;
-    top: 125px;
-    color: #c6878f;
-} */
-
 @media only screen and (max-width: 1024px) {
     .order-container {
         display: inline-block;
@@ -647,6 +657,36 @@ input, textarea {
     }
 }
 
+@media only screen and (min-width: 320px) {
+    .order-container i {
+        font-size: 2em;
+    }
+    .order1-container {
+        width: 85%;
+    }
+
+    .order2-container {
+        width: 85%;
+    }
+
+    .order3-container {
+        width: 85%;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    .order1-container {
+        width: 90%;
+    }
+
+    .order2-container {
+        width: 90%;
+    }
+
+    .order3-container {
+        width: 90%;
+    }
+}
 
 /***********************************footer***********************************/
 
@@ -672,4 +712,10 @@ input, textarea {
 
 .footer-ul a {
     color: white;
+}
+
+@media only screen and (max-width: 500px){
+    .footer-ul li {
+        letter-spacing: 0.6em;
+    }
 }
