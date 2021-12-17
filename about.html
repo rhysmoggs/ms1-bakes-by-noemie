@@ -17,7 +17,7 @@
 
     <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Bakes by Noémie</a>
+        <a class="navbar-brand" href="index.html">Bakes by Noémie</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -45,7 +45,29 @@
 
     <div><!--removed bootstrap container-fluid as unnecessary for fixed banner-->
       <div class="offer">
-        <p>Order today and we guarantee that your bakes will arrive before Christmas Day.<a href="#">Show me more.</a></p>
+        <p>Order today and we guarantee that your bakes will arrive before Christmas Day.<a href="shop.html" aria-label="link to shop.html" data-toggle="modal" data-target="#my-modal">Show me more.</a></p>
+      </div>
+    </div>
+
+    <!-- modal -->
+
+    <div class="modal fade" id="my-modal" tabindex="-1" aria-labelledby="my-modal" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Welcome to Bakes by Noémie!</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>It's Christmas. Here's a 10% discount on your order.</p>
+            <p>BAKES10</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Take Me Back</button>
+          </div>
+        </div>
       </div>
     </div>
 
