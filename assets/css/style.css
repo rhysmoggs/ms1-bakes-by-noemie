@@ -18,7 +18,7 @@ ul {
     padding: 0;
 }
 
-/***********************************navbar***********************************/
+/***********************************Navbar***********************************/
 
 .fixed-top {
     box-shadow: 10px 3px 10px 0px rgb(0, 0, 0, 0.2);
@@ -36,7 +36,7 @@ ul {
     }
 }
 
-/***********************************offer banner***********************************/
+/***********************************Offer***********************************/
 
 /* Whiskey Drop reference for idea of offerbanner /*/
 
@@ -62,7 +62,7 @@ ul {
     font-weight: bold;
     text-decoration: none;
 }
-/***********************************welcome***********************************/
+/***********************************Welcome***********************************/
 
 .welcome-left {
     text-align: center;
@@ -85,14 +85,14 @@ ul {
     }
 }
 
-/***********************************line break***********************************/
+/***********************************Line Break***********************************/
 
 hr {
     border-top: 1px solid #c6878f;
     width: 30%;
 }
 
-/***********************************company section***********************************/
+/***********************************Company***********************************/
 
 .company-container {
     width: fit-content;
@@ -115,7 +115,7 @@ hr {
     font-style: italic;
 }
 
-/******************hero section*****************/
+/***********************************Hero***********************************/
 
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/hero.jpg");
@@ -226,7 +226,7 @@ hr {
     }
 }
 
-/***********************************Review & Subscribe - index.html***********************************/
+/***********************************Review & Subscribe***********************************/
 
 .review-container {
     width: 100%;
@@ -329,7 +329,7 @@ input {
     }
 }
 
-/***********************************Story - contact.html***********************************/
+/***********************************Story***********************************/
 
 .story-section {
     display: flex;
@@ -383,7 +383,7 @@ input {
     }
 }
 
-/***********************************Meet the Team - contact.html***********************************/
+/***********************************Team***********************************/
 
 .team-container {
     width: 100%;
@@ -453,7 +453,7 @@ input {
 }
 
 
-/***********************************Message Us - contact.html***********************************/
+/***********************************Form***********************************/
 
 .form-section {
     width: 100%;
@@ -501,24 +501,16 @@ input, textarea {
     }
 }
 
-/***********************************Business info - contact.html***********************************/
+/***********************************Business***********************************/
 
 .business-section {
     width: 100%;
-    /* display: flex; */
 }
 
 .business-container {
     width: 100%;
     display: flex;
 }
-
-/* .business-container img {
-    max-width: 100%;
-    height: auto;
-    border: 1px solid black;
-    border-radius: 50%;
-} */
 
 .opening-container {
     width: 25%;
@@ -591,13 +583,12 @@ input, textarea {
     }
 }
 
-/***********************************Delivery Options shop.html***********************************/
+/***********************************Shop***********************************/
 
 /*https://www.youtube.com/watch?v=N4bhJ4u29Do MS1 Preparation and CSS Positioning by Suzy Bennett*/
 /*to try and rely less on bootstrap and understand more about css's own responsive options, I choose to alter my original layour with the following*/
 
 /*https://www.w3schools.com/howto/howto_css_button_on_image.asp*/
-/* Container needed to position the button. Adjust the width as needed */
 .options-container {
     position: relative;
     width: 50%;
@@ -694,7 +685,7 @@ input, textarea {
     }
 }
 
-/***********************************How to Order shop.html***********************************/
+/***********************************How to Order***********************************/
 
 .order-container {
     width: 100%;
@@ -783,7 +774,7 @@ input, textarea {
     }
 }
 
-/***********************************footer***********************************/
+/***********************************Footer***********************************/
 
 .footer-container {
     background-color: #c6878f;
