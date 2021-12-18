@@ -4,7 +4,7 @@
 
 Here is the official website for Bakes by Noémie, a bakery based in South Wales.
 
-The website is the company's first launched website and aims to increase brand awareness and attract more customers to purchase their baked goods. The website will clearly display information for new and returning customers including company contact info, updates and social media links. The website is fully responsible on a range of small, hand-held devices and up to larger screen sizes. This is to ensure that as many eyes as possible can visit the website, in turn increasing the ultimate goal of turning a profit via the Bakes by Noémie shop.
+The website is the company's first launched website and aims to increase brand awareness and attract more customers to purchase their baked goods. The website will clearly display information for new and returning customers including the company's contact info, updates and social media links. The website is fully responsible on a range of small, hand-held devices and up to 1201px and over. This is to ensure that as many eyes as possible can visit the website, in turn increasing the ultimate goal of turning a profit via the Bakes by Noémie shop.
 
 <h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
 
@@ -30,22 +30,26 @@ The website is the company's first launched website and aims to increase brand a
 
 ## Design
 #### Colour Scheme
-- The main colours used on the Bakes by Noémie website are ash gray (#c6878f), puce (#c6878f) and white (#fff). There is a small amount of navy purple (#5b507a) found to help with contrasting on the index.html hero image.
+- The main colours used on the Bakes by Noémie website are ash gray (#ced4c6), puce (#c6878f) and white (#fff). There is a hint of navy purple (#5b507a) found to better contrast the text with the hero image on the index.html home page. The text colour is prodominantly a dark black (#000) to ensure a greater contrast between the mellow, pastel colour palette and background. There is some text content in white - epsecially when the background is a darker colour or shade.
 
-- The ash gray colour came from using [Eye Dropper](https://eyedropper.org/), a colour picker on Bakes by Noémie's instagram page and the logo background colour.
+- I used the [Coolors](https://coolors.co/ced4c6-c6878f-5b507a) website to help choose complimentary colours.
+
+- The ash gray colour came from using [Eye Dropper](https://eyedropper.org/), a colour picker. This tool was used to pick the colour from the company logo used on the Bakes by Noémie [Instagram](https://www.instagram.com/bakesbynoemie/) page.
 
 - This inspired the colour theme throughout, using pastel colours and some white/black contrasted text or backgrounds for readibility reasons.
 
-I used the [Coolors](https://coolors.co/ced4c6-c6878f-5b507a) website to help choose complimentary colours. 
+<img src="assets/readme-images/palette.png">
+
+
 #### Typography
--  The Poppins font is the font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+-  The website uses the Poppins font. This is available via Google Fonts [link here] and imported via css. Sans Serif is used as a secondary option in case of failure to import.  font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
 - A more stylisitic font was initally considered, but due to the readability it was opted to go for a very clean, clear and readable font.
 
 #### Imagery
-- The use of photography is vital in creating allure and desire, especially for a bakery. Customers are drawn by what they see. All images of the products are the developers own. The photographs used are large, light/bright, colourful and hope to entice customers into visiting the shop and purchasing the baked goods.
+- The use of photography is vital in creating allure and desire, especially for a bakery. Customers are drawn by what they see. The photographs used are large, light/bright, colourful and hope to entice customers into visiting the shop and purchasing the baked goods.
 
 ### Wireframes
-The was a very basic wireframe in place. This is was then fleshed out to give a complete idea and guideline for the project, especially handy when referencing responsive design. The main screen sizes are listed below, along with every page of the website for their relavant screen size.
+Initially, there was a very basic wireframe in place. This is was then fleshed out to give a complete idea and guideline for the project, especially handy when referencing responsive design. The main screen sizes are listed below, along with every page of the website for their relavant screen size.
 #### Desktop
 
 - Home Page Wireframe - 
@@ -86,25 +90,75 @@ The was a very basic wireframe in place. This is was then fleshed out to give a 
 
 - Home Page Wireframe
 
-<img src="wireframes/tablet-shop.png">
+<img src="wireframes/mobile-index.png">
 
 - About Us Wireframe
 
-<img src="wireframes/tablet-shop.png">
+<img src="wireframes/mobile-about.png">
 
 - Contact Us Wireframe
 
-<img src="wireframes/tablet-shop.png">
+<img src="wireframes/mobile-contact.png">
 
 - Shop Wireframe
 
-<img src="wireframes/tablet-shop.png">
+<img src="wireframes/mobile-shop.png">
 
 ## Features
 
--   Responsive on all device sizes - from 320px upwards.
+-   Responsive on all device sizes - from 320px upwards to 1200px and more.
+
+## Interactive Elements
 
 -   Interactive elements, nav bar, footer, clickable buttons and links, forms, modal.
+
+#### Navbar
+
+- Desktop Navbar
+
+<img src="assets/readme-images/desktop-navbar.png">
+
+- Tablet Navbar
+
+<img src="assets/readme-images/tablet-navbar.png">
+
+- Mobile Navbar
+
+<img src="assets/readme-images/mobile-navbar.png">
+
+- Mobile Navbar when clicked, opens up the navigation links
+
+<img src="assets/readme-images/mobile-navbar2.png">
+
+#### Modal
+
+- The modal appears when the "Show me more" link on the offer banner just below the navbar. Functions on mobile, tablet, laptop and larger desktops.
+
+<img src="assets/readme-images/modal.png">
+
+#### Newsletter
+
+- The Newsletter found on the index.html page requires validation before accepting the user input.
+
+<img src="assets/readme-images/newsletter.png">
+
+- When user successfully complies with promted validation, they are met with the following screen.
+- This screen is taken from Code Institute's _____, for the purpose of showing a successful action.
+
+<img src="assets/readme-images/ci-form.png">
+
+#### Message Us
+
+- As with the Newsletter feature seen above, the Message Us form on the contact.html page also requires validation before the user can submit their data.
+
+<img src="assets/readme-images/messageus.png">
+
+- As with the Newsletter feature, the user will be met with the same Code Institute webpage informing them that the data was inputed succesfully.
+
+<img src="assets/readme-images/ci-form2.png">
+
+#### Google Maps
+
 
 ## Technologies Used
 
