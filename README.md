@@ -45,22 +45,42 @@ I used the [Coolors](https://coolors.co/ced4c6-c6878f-5b507a) website to help ch
 - The use of photography is vital in creating allure and desire, especially for a bakery. Customers are drawn by what they see. All images of the products are the developers own. The photographs used are large, light/bright, colourful and hope to entice customers into visiting the shop and purchasing the baked goods.
 
 ### Wireframes
+The was a very basic wireframe in place. This is was then fleshed out to give a complete idea and guideline for the project, especially handy when referencing responsive design. The main screen sizes are listed below, along with every page of the website for their relavant screen size.
+#### Desktop
 
 - Home Page Wireframe - [View](https://github.com/)
 
-- Mobile Wireframe - [View](https://github.com/)
+- About Us Wireframe - [View](https://github.com/)
 
-- About Us Page Wireframe - [View](https://github.com/)
+- Contact Us Wireframe - [View](https://github.com/)
 
-- Contact Us Page Wireframe - [View](https://github.com/)
+- Shop Wireframe - [View](https://github.com/)
 
-- Shop Page Wireframe - [View](https://github.com/)
+#### Tablet
+
+- Home Page Wireframe - [View](https://github.com/)
+
+- About Us Wireframe - [View](https://github.com/)
+
+- Contact Us Wireframe - [View](https://github.com/)
+
+- Shop Wireframe - [View](https://github.com/)
+
+#### Mobile
+
+- Home Page Wireframe - [View](https://github.com/)
+
+- About Us Wireframe - [View](https://github.com/)
+
+- Contact Us Wireframe - [View](https://github.com/)
+
+- Shop Wireframe - [View](https://github.com/)
 
 ## Features
 
--   Responsive on all device sizes - from 320px upwards
+-   Responsive on all device sizes - from 320px upwards.
 
--   Interactive elements, nav bar, clickable buttons and links, forms, modal
+-   Interactive elements, nav bar, footer, clickable buttons and links, forms, modal.
 
 ## Technologies Used
 
