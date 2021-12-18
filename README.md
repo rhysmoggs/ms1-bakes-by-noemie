@@ -70,21 +70,35 @@ The was a very basic wireframe in place. This is was then fleshed out to give a 
 
 <img src="wireframes/tablet-index.png">
 
-- About Us Wireframe - [View](https://github.com/)
+- About Us Wireframe
 
-- Contact Us Wireframe - [View](https://github.com/)
+<img src="wireframes/tablet-about.png">
 
-- Shop Wireframe - [View](https://github.com/)
+- Contact Us Wireframe
+
+<img src="wireframes/tablet-contact.png">
+
+- Shop Wireframe
+
+<img src="wireframes/tablet-shop.png">
 
 #### Mobile
 
-- Home Page Wireframe - [View](https://github.com/)
+- Home Page Wireframe
 
-- About Us Wireframe - [View](https://github.com/)
+<img src="wireframes/tablet-shop.png">
 
-- Contact Us Wireframe - [View](https://github.com/)
+- About Us Wireframe
 
-- Shop Wireframe - [View](https://github.com/)
+<img src="wireframes/tablet-shop.png">
+
+- Contact Us Wireframe
+
+<img src="wireframes/tablet-shop.png">
+
+- Shop Wireframe
+
+<img src="wireframes/tablet-shop.png">
 
 ## Features
 
