@@ -48,13 +48,13 @@ I used the [Coolors](https://coolors.co/ced4c6-c6878f-5b507a) website to help ch
 The was a very basic wireframe in place. This is was then fleshed out to give a complete idea and guideline for the project, especially handy when referencing responsive design. The main screen sizes are listed below, along with every page of the website for their relavant screen size.
 #### Desktop
 
-- Home Page Wireframe - [View](https://github.com/)
+- Home Page Wireframe - [View]<img src="wireframes/desktop-index.png">
 
-- About Us Wireframe - [View](https://github.com/)
+- About Us Wireframe - [View]<img src="wireframes/desktop-about.png">
 
-- Contact Us Wireframe - [View](https://github.com/)
+- Contact Us Wireframe - [View]<img src="wireframes/desktop-contact.png">
 
-- Shop Wireframe - [View](https://github.com/)
+- Shop Wireframe - [View]<img src="wireframes/desktop-shop.png">
 
 #### Tablet
 
