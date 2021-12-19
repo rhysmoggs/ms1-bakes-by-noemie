@@ -122,6 +122,10 @@ There is some text content in white - epsecially when the background is a darker
 
 -   Responsive on all device sizes - from 320px upwards to 1200px and more.
 
+- Accessibility
+
+When usuing other sources of code, Accessibility was always taken into account. Aria-labels were added throughout each html doucument.
+
 ## Interactive Elements
 
 -   Interactive elements, nav bar, footer, clickable buttons and links, forms, modal.
