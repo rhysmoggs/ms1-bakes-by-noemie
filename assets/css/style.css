@@ -38,12 +38,10 @@ ul {
 
 /***********************************Offer***********************************/
 
-/* Whiskey Drop reference for idea of offerbanner /*/
-
 .offer {
     background-color: #c6878f;
     padding: 0.5em;
-    margin-bottom: 0; /*change from default setting from 2rem to 0*/
+    margin-bottom: 0;
     border-radius: 0;
     text-align: center;
 }
@@ -62,6 +60,7 @@ ul {
     font-weight: bold;
     text-decoration: none;
 }
+
 /***********************************Welcome***********************************/
 
 .welcome-left {
@@ -452,7 +451,6 @@ input {
     }
 }
 
-
 /***********************************Form***********************************/
 
 .form-section {
@@ -585,10 +583,6 @@ input, textarea {
 
 /***********************************Shop***********************************/
 
-/*https://www.youtube.com/watch?v=N4bhJ4u29Do MS1 Preparation and CSS Positioning by Suzy Bennett*/
-/*to try and rely less on bootstrap and understand more about css's own responsive options, I choose to alter my original layour with the following*/
-
-/*https://www.w3schools.com/howto/howto_css_button_on_image.asp*/
 .options-container {
     position: relative;
     width: 50%;

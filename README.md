@@ -302,6 +302,27 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         2. To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
         3. There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
 
+### Testing
+
+Following are the Google Chrome Lighthouse results for each page.
+
+- Home page
+
+<img src="assets/readme-images/lighthouse-index.png">
+
+- About Us page
+
+<img src="assets/readme-images/lighthouse-about.png">
+
+- Contact Us page
+
+<img src="assets/readme-images/lighthouse-contact.png">
+
+- Shop page
+
+<img src="assets/readme-images/lighthouse-shop.png">
+
+
 ### Further Testing
 
 -   Testing was prodominantley made using Google Chrome's own developer tools and 'Inspect Mode', although testing was done sporadically on alternative browsers with each major adddition to the website e.g. new content or responsive changes via keyframes.
@@ -375,6 +396,10 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ### Content
 
 -   The hero image on the index.html webpage is owned by Noémie Fradette of Bakes by Noémie.
+
+-   (https://www.youtube.com/watch?v=N4bhJ4u29Do) MS1 Preparation and CSS Positioning by Suzy Bennett - for help throughout and guide on css layout.
+
+-   https://www.w3schools.com/howto/howto_css_button_on_image.asp
 
 -   This README.md document was based on Code Institute's [template](https://github.com/Code-Institute-Solutions/SampleREADME/blob/master/README.md) .
 
