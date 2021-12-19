@@ -110,7 +110,7 @@ There is some text content in white - epsecially when the background is a darker
 - The use of photography is vital in creating allure and desire, especially for a bakery. Customers are drawn by what they see. The photographs used are large, light/bright, colourful and hope to entice customers into visiting the shop and purchasing the baked goods.
 
 #### Font
--  The website uses the Poppins font. This is available for free via [Google Fonts](https://fonts.google.com/) and imported via css. Sans Serif is used as a secondary option in case of failure to import.  font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+-  The website uses the Poppins font. It seems to be a very popular option amongst youtubers and provides that clean, clear style without compomising on readability. This is available for free via [Google Fonts](https://fonts.google.com/) and imported via CSS. Sans Serif is used as a secondary option in case of failure to import.  font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
 - A more stylisitic font was initally considered, but due to the readability it was opted to go for a very clean, clear and readable font.
 
 ## Features
@@ -122,6 +122,8 @@ There is some text content in white - epsecially when the background is a darker
 -   Interactive elements, nav bar, footer, clickable buttons and links, forms, modal.
 
 #### Navbar
+
+As shown on the images below, the nav bar has a consistent and clean style. it is coompletely respnsive, with a toggle menu appearing for smaller screen sizes of _____ and under. This was based on Boostraps own nav documentation, which I then styled myself and added classes. The companys name is always visible, which is very important for consistency and brand exposure and familiarity. Having the company's name present as a logo, also allows the user to insincitvly click on it to return to the home page.
 
 - Desktop Navbar
 
@@ -138,6 +140,12 @@ There is some text content in white - epsecially when the background is a darker
 - Mobile Navbar when clicked, opens up the navigation links
 
 <img src="assets/readme-images/mobile-navbar2.png">
+
+### Footer
+
+- Desktop footer
+
+<img src="assets/readme-images/footer-big.png">
 
 #### Modal
 
@@ -267,16 +275,16 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Further Testing
 
+-   Testing was prodominantley made using Google Chrome's own developer tools and 'Inspect Mode', although testing was done sporadically on alternative browsers with each major adddition to the website e.g. new content or responsive changes via keyframes.
 -   The Website was tested on Google Chrome, Mozilla Firefox, Microsoft Edge and Opera browsers.
 -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
--   A large amount of testing was done to ensure that all pages were linking correctly.
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+-   I had feedback throughout from Noémie herself, who gave guidance and a critical eye throughout.
 
 ### Known Bugs
 
--   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
-    -   A white gap can be seen to the right of the footer and navigation bar as a result.
--   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+-   The navbar menu links are slightly off-center, although the navbar is responsive and moves with the width of the screen.
+-   There is some slight scaling issues when ______
 
 ## Deployment
 
@@ -329,18 +337,17 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ## Credits
 
 ### Code
+-   The 
 
--   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
-
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+-   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): code used from the Bootstrap document/library. Used for navbar and modal. All other sections of the website is my own work and personal tweaking.
 
 -   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
 
 ### Content
 
--   All content was written by the developer.
+-   The hero image on the index.html webpage is owned by Noémie Fradette of Bakes by Noémie.
 
--   This README.md document was based on Code Institute's template, found [here](https://github.com/Code-Institute-Solutions/SampleREADME/blob/master/README.md) .
+-   This README.md document was based on Code Institute's [template](https://github.com/Code-Institute-Solutions/SampleREADME/blob/master/README.md) .
 
 
 ### Media
