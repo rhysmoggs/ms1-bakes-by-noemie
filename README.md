@@ -113,6 +113,11 @@ There is some text content in white - epsecially when the background is a darker
 -  The website uses the Poppins font. It seems to be a very popular option amongst youtubers and provides that clean, clear style without compomising on readability. This is available for free via [Google Fonts](https://fonts.google.com/) and imported via CSS. Sans Serif is used as a secondary option in case of failure to import.  font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
 - A more stylisitic font was initally considered, but due to the readability it was opted to go for a very clean, clear and readable font.
 
+
+
+<img src="assets/readme-images/desktop-col-index.html.png">
+
+
 ## Features
 
 -   Responsive on all device sizes - from 320px upwards to 1200px and more.
@@ -141,17 +146,37 @@ As shown on the images below, the nav bar has a consistent and clean style. it i
 
 <img src="assets/readme-images/mobile-navbar2.png">
 
-### Footer
+#### Footer
 
-- Desktop footer
+- Desktop Footer & Tablet Footer
 
 <img src="assets/readme-images/footer-big.png">
+
+- Mobile Footer
+
+<img src="assets/readme-images/footer.png">
 
 #### Modal
 
 - The modal appears when the "Show me more" link on the offer banner just below the navbar. Functions on mobile, tablet, laptop and larger desktops.
 
 <img src="assets/readme-images/modal.png">
+
+#### Buttons
+
+- Every button is styled to look the same.
+
+<img src="assets/readme-images/button.png">
+
+- The colours simply invert when a cursor hovers over them. A simple visual indicator and keeping in line with the colour palette.
+
+<img src="assets/readme-images/button-hover.png">
+
+#### Instagram link
+
+- The Insagram link appears centrally on both the index.html and shop.html. webpages. It serves as a visual reminder to check the company's social media account. This aims to drive up visitors and curiosity.
+
+<img src="assets/readme-images/instagram.png">
 
 #### Newsletter
 
