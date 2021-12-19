@@ -6,7 +6,7 @@ Here is the official website for Bakes by Noémie - a bakery based in South Wale
 
 The website is the company's first attempt and building their brand and awareness. Having launched in April 2020, with a relatively small but hugely skilled and ambitious team of bakers - Noémie, of Bakes by Noémie and the company's owner and head-baker, would like to launch an official website to take the company to the next level. The company expects to increase brand awareness and attract more customers to purchase their baked goods. The website will clearly display information for new and returning customers including the company's contact info, updates and social media links. The website is fully responsible on a range of hand-held devices to larger screens. This is to ensure that as many eyes as possible can visit the website, in turn increasing the ultimate goal of turning a profit via the Bakes by Noémie shop.
 
-<h2 align="center"><img src="assets/readme-images/desktop-col-index.html.png"></h2>
+<h2 align="center"><img src="assets/readme-images/website.png"></h2>
 
 ## User Stories
 
@@ -111,6 +111,9 @@ There is some text content in white - especially when the background is a darker
 #### Font
 -  The website uses the Poppins font. It seems to be a very popular option amongst youtubers and provides that clean, clear style without compromising on readability. This is available for free via [Google Fonts](https://fonts.google.com/) and imported via CSS. Sans Serif is used as a secondary option in case of failure to import.  font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
 - A more stylistic font was initially considered, but due to the readability it was opted to go for a very clean, clear and readable font.
+
+
+<img src="assets/readme-images/desktop-col-index.html.png">
 
 ## Accessibility
 Extremely important aspect.
