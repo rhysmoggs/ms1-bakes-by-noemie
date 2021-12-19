@@ -2,9 +2,9 @@
 
 [View the live project here.](https://codeinstitute.net)
 
-Here is the official website for Bakes by Noémie, a bakery based in South Wales.
+Here is the official website for Bakes by Noémie - a bakery based in South Wales, UK.
 
-The website is the company's first launched website and aims to increase brand awareness and attract more customers to purchase their baked goods. The website will clearly display information for new and returning customers including the company's contact info, updates and social media links. The website is fully responsible on a range of small, hand-held devices and up to 1201px and over. This is to ensure that as many eyes as possible can visit the website, in turn increasing the ultimate goal of turning a profit via the Bakes by Noémie shop.
+The website is the company's first attempt and building their brand and awareness. Having launched in April 2020, with a relatively small but hugely skilled and ambitious team of bakers - Noémie, of Bakes by Noémie and the companys owner and head-baker, would like to launch an official website to take the company to the next level. The company expects to increase brand awareness and attract more customers to purchase their baked goods. The website will clearly display information for new and returning customers including the company's contact info, updates and social media links. The website is fully responsible on a range of handheld devices to larger screens. This is to ensure that as many eyes as possible can visit the website, in turn increasing the ultimate goal of turning a profit via the Bakes by Noémie shop.
 
 <h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
 
@@ -21,35 +21,17 @@ The website is the company's first launched website and aims to increase brand a
 2. I want to find the best way to get in contact with the company with any questions I may have.
 3. I want to be able to contact the company in many different ways.
 4. I want to be able to access the shop.
-
- #### As a Frequent User :
 1. I want to check to see if there are any newly added products to the shop.
-2. I want there to be a Newsletter so that I am kept 
-3. I want to be able to access the shop.
+2. I want there to be a Newsletter so that I am informed of any company related news.
+
+
+
 
 
 ## Design
-#### Colour Scheme
-- The main colours used on the Bakes by Noémie website are ash gray (#ced4c6), puce (#c6878f) and white (#fff). There is a hint of navy purple (#5b507a) found to better contrast the text with the hero image on the index.html home page. The text colour is prodominantly a dark black (#000) to ensure a greater contrast between the mellow, pastel colour palette and background. There is some text content in white - epsecially when the background is a darker colour or shade.
-
-- I used the [Coolors](https://coolors.co/ced4c6-c6878f-5b507a) website to help choose complimentary colours.
-
-- The ash gray colour came from using [Eye Dropper](https://eyedropper.org/), a colour picker. This tool was used to pick the colour from the company logo used on the Bakes by Noémie [Instagram](https://www.instagram.com/bakesbynoemie/) page.
-
-- This inspired the colour theme throughout, using pastel colours and some white/black contrasted text or backgrounds for readibility reasons.
-
-<img src="assets/readme-images/palette.png">
-
-
-#### Typography
--  The website uses the Poppins font. This is available via Google Fonts [link here] and imported via css. Sans Serif is used as a secondary option in case of failure to import.  font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
-- A more stylisitic font was initally considered, but due to the readability it was opted to go for a very clean, clear and readable font.
-
-#### Imagery
-- The use of photography is vital in creating allure and desire, especially for a bakery. Customers are drawn by what they see. The photographs used are large, light/bright, colourful and hope to entice customers into visiting the shop and purchasing the baked goods.
-
 ### Wireframes
 Initially, there was a very basic wireframe in place. This is was then fleshed out to give a complete idea and guideline for the project, especially handy when referencing responsive design. The main screen sizes are listed below, along with every page of the website for their relavant screen size.
+
 #### Desktop
 
 - Home Page Wireframe - 
@@ -103,6 +85,33 @@ Initially, there was a very basic wireframe in place. This is was then fleshed o
 - Shop Wireframe
 
 <img src="wireframes/mobile-shop.png">
+
+#### Colour Palette
+
+<img src="assets/readme-images/palette.png">
+
+- The ash gray colour came from using [Eye Dropper](https://eyedropper.org/), a colour picker. This tool was used to pick the colour from the company logo used on the Bakes by Noémie [Instagram](https://www.instagram.com/bakesbynoemie/) page.
+
+- The background colour for the website came from the logo used on Bakes by Noémie Instagram page.
+- The primary colours used on the Bakes by Noémie website are ash gray (#ced4c6), puce (#c6878f) and white (#fff).
+There is a hint of navy purple (#5b507a) found to better contrast the text with the hero image on the index.html home page.
+The text colour is prodominantly a dark black (#000) to ensure a greater contrast between the mellow, pastel colour palette and background.
+There is some text content in white - epsecially when the background is a darker colour or shade.
+
+- The [Coolors](https://coolors.co/ced4c6-c6878f-5b507a) website was then used to help choose complimentary colours that would both compliment the primary colour, create a visually pleasing palette and of course balance nicely. The white and black where added to further help with contrast.
+
+
+
+- This inspired the colour theme throughout, using pastel colours and some black contrasted text or backgrounds for readibility reasons.
+
+<img src="assets/readme-images/contrast.png">
+
+#### Images
+- The use of photography is vital in creating allure and desire, especially for a bakery. Customers are drawn by what they see. The photographs used are large, light/bright, colourful and hope to entice customers into visiting the shop and purchasing the baked goods.
+
+#### Font
+-  The website uses the Poppins font. This is available for free via [Google Fonts](https://fonts.google.com/) and imported via css. Sans Serif is used as a secondary option in case of failure to import.  font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+- A more stylisitic font was initally considered, but due to the readability it was opted to go for a very clean, clear and readable font.
 
 ## Features
 
@@ -192,8 +201,13 @@ Initially, there was a very basic wireframe in place. This is was then fleshed o
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+
+<img src="assets/readme-images/validator.png">
+
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
+
+<img src="assets/readme-images/jigsaw.png">
 
 ### Testing User Stories from User Experience (UX) Section
 
