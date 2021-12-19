@@ -4,37 +4,38 @@
 
 Here is the official website for Bakes by Noémie - a bakery based in South Wales, UK.
 
-The website is the company's first attempt and building their brand and awareness. Having launched in April 2020, with a relatively small but hugely skilled and ambitious team of bakers - Noémie, of Bakes by Noémie and the companys owner and head-baker, would like to launch an official website to take the company to the next level. The company expects to increase brand awareness and attract more customers to purchase their baked goods. The website will clearly display information for new and returning customers including the company's contact info, updates and social media links. The website is fully responsible on a range of handheld devices to larger screens. This is to ensure that as many eyes as possible can visit the website, in turn increasing the ultimate goal of turning a profit via the Bakes by Noémie shop.
+The website is the company's first attempt and building their brand and awareness. Having launched in April 2020, with a relatively small but hugely skilled and ambitious team of bakers - Noémie, of Bakes by Noémie and the company's owner and head-baker, would like to launch an official website to take the company to the next level. The company expects to increase brand awareness and attract more customers to purchase their baked goods. The website will clearly display information for new and returning customers including the company's contact info, updates and social media links. The website is fully responsible on a range of hand-held devices to larger screens. This is to ensure that as many eyes as possible can visit the website, in turn increasing the ultimate goal of turning a profit via the Bakes by Noémie shop.
 
 <h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
 
 ## User Stories
 
+Following are the goals that the website should provide for each user.
+
 #### As a New User :
-1. I want to easily understand the main purpose of the site and learn more about the company.
-2. I want to be able to easily navigate throughout the site to find content.
-3. I want to easily find reviews to understand what their users think of them and see if they are trusted.
-4. I want to easily find their social media links to find out more about the company, the way they conduct themselves and their interaction with others.
+* I want it to be very clear what the website's purpose is and what do they do.
+* I want to be able to seamlessly navigate the website on whatever device I'm using.
+* I want to easily find their social media links to find out more about the company, the way they conduct themselves and their interaction with customers.
+* I want to find reviews.
 
 #### As a Returning User :
-1. I want to find information about the company's background, their stroy and growth.
-2. I want to find the best way to get in contact with the company with any questions I may have.
-3. I want to be able to contact the company in many different ways.
-4. I want to be able to access the shop.
-1. I want to check to see if there are any newly added products to the shop.
-2. I want there to be a Newsletter so that I am informed of any company related news.
-
-
-
+* I want to be able to access the shop with ease and to purchase their products.
+* I want to check to see if there are any newly added products to the shop.
+* I want to find information about the company's background, their story and growth.
+* I want to find the best way to get in contact with the company with any questions I may have.
+* I want to be able to contact the company in many different ways.
+* I want there to be a Newsletter so that I am informed of any company related news.
 
 
 ## Design
+Once the user goals and the website's intentions were set out, the next step was to design the aesthetic aspects of the Bakes by Noémie website.
+
 ### Wireframes
-Initially, there was a very basic wireframe in place. This is was then fleshed out to give a complete idea and guideline for the project, especially handy when referencing responsive design. The main screen sizes are listed below, along with every page of the website for their relavant screen size.
+Wireframes were drawn using [Balsamiq](https://balsamiq.com/) at the beginning of the project. They were referenced throughout the design and building of the website. Following are a series of images showing the Bakes by Noémie website on the three main screen sizes: desktop, tablet and mobile. Every webpage is also included.
 
 #### Desktop
 
-- Home Page Wireframe - 
+- Home Page Wireframe
 
 <img src="wireframes/desktop-index.png">
 
@@ -87,52 +88,52 @@ Initially, there was a very basic wireframe in place. This is was then fleshed o
 <img src="wireframes/mobile-shop.png">
 
 #### Colour Palette
+- Equally as important in the baking industry - especially with decorative products, colour is vital for the design of this website.
+
+- The primary colours used on the Bakes by Noémie website are ash gray (#ced4c6), puce (#c6878f) and white (#fff).
+There is a hint of navy purple (#5b507a) found to better contrast the text with the hero image on the index.html home page.
+The text colour is predominantly a dark black (#000) to ensure a greater contrast between the mellow, pastel colour palette and background.
+There is some text content in white - especially when the background is a darker colour or shade.
 
 <img src="assets/readme-images/palette.png">
 
-- The ash gray colour came from using [Eye Dropper](https://eyedropper.org/), a colour picker. This tool was used to pick the colour from the company logo used on the Bakes by Noémie [Instagram](https://www.instagram.com/bakesbynoemie/) page.
+- The ash gray (#ced4c6) colour came from using [Eye Dropper](https://eyedropper.org/). This colour picker tool was used to pick the colour from the company logo used on the Bakes by Noémie [Instagram](https://www.instagram.com/bakesbynoemie/) page.
 
-- The background colour for the website came from the logo used on Bakes by Noémie Instagram page.
-- The primary colours used on the Bakes by Noémie website are ash gray (#ced4c6), puce (#c6878f) and white (#fff).
-There is a hint of navy purple (#5b507a) found to better contrast the text with the hero image on the index.html home page.
-The text colour is prodominantly a dark black (#000) to ensure a greater contrast between the mellow, pastel colour palette and background.
-There is some text content in white - epsecially when the background is a darker colour or shade.
-
-- The [Coolors](https://coolors.co/ced4c6-c6878f-5b507a) website was then used to help choose complimentary colours that would both compliment the primary colour, create a visually pleasing palette and of course balance nicely. The white and black where added to further help with contrast.
-
-
-
-- This inspired the colour theme throughout, using pastel colours and some black contrasted text or backgrounds for readibility reasons.
+- It was decided early on in the design stage that this would be the background colour. A pastel colour that was fairly neutral and in no way distracting. It provided a perfect base to layer other colours and content on top of. It is both a visually appealing design and also satisfies the importance of providing an accessible website with high contrast.
 
 <img src="assets/readme-images/contrast.png">
+
+- The [Coolors](https://coolors.co/ced4c6-c6878f-5b507a) website was then used to help choose colours that would compliment the background colour. This helped set-up the vision of creating an aesthetically pleasing website and of course balance everything nicely. The white and black were added to further help with contrast and readability.
 
 #### Images
 - The use of photography is vital in creating allure and desire, especially for a bakery. Customers are drawn by what they see. The photographs used are large, light/bright, colourful and hope to entice customers into visiting the shop and purchasing the baked goods.
 
 #### Font
--  The website uses the Poppins font. It seems to be a very popular option amongst youtubers and provides that clean, clear style without compomising on readability. This is available for free via [Google Fonts](https://fonts.google.com/) and imported via CSS. Sans Serif is used as a secondary option in case of failure to import.  font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
-- A more stylisitic font was initally considered, but due to the readability it was opted to go for a very clean, clear and readable font.
-
+-  The website uses the Poppins font. It seems to be a very popular option amongst youtubers and provides that clean, clear style without compromising on readability. This is available for free via [Google Fonts](https://fonts.google.com/) and imported via CSS. Sans Serif is used as a secondary option in case of failure to import.  font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+- A more stylistic font was initially considered, but due to the readability it was opted to go for a very clean, clear and readable font.
 
 
 <img src="assets/readme-images/desktop-col-index.html.png">
 
+## Accessibility
+Extremely important aspect.
+-   Semantic design.
+-   The use of alt to describe images and other content.
+-   Aria-labelledby to link sections of each webpage together.
+-   Colour and contrast considerations and testing.
+-   Adding labels to forms.
 
 ## Features
 
--   Responsive on all device sizes - from 320px upwards to 1200px and more.
-
-- Accessibility
-
-When usuing other sources of code, Accessibility was always taken into account. Aria-labels were added throughout each html doucument.
+-   Responsive on all device sizes - from 320px upwards to larger desktops reaching 1200px and more.
 
 ## Interactive Elements
 
--   Interactive elements, nav bar, footer, clickable buttons and links, forms, modal.
+-   There are many interactive elements to the website.
 
 #### Navbar
 
-As shown on the images below, the nav bar has a consistent and clean style. it is coompletely respnsive, with a toggle menu appearing for smaller screen sizes of _____ and under. This was based on Boostraps own nav documentation, which I then styled myself and added classes. The companys name is always visible, which is very important for consistency and brand exposure and familiarity. Having the company's name present as a logo, also allows the user to insincitvly click on it to return to the home page.
+As shown on the images below, the nav bar has a consistent and clean style. it is completely responsive, with a toggle menu appearing for smaller screen sizes of 767px and under. This was based on Boostraps own nav [documentation](https://getbootstrap.com/docs/4.0/components/navbar/), which I then styled myself and altered classes. The company's name is always visible, which is very important for consistency and brand exposure and familiarity. Having the company's name present as a logo, also allows the user to instinctively click on it to return to the home page.
 
 - Desktop Navbar
 
@@ -178,7 +179,7 @@ As shown on the images below, the nav bar has a consistent and clean style. it i
 
 #### Instagram link
 
-- The Insagram link appears centrally on both the index.html and shop.html. webpages. It serves as a visual reminder to check the company's social media account. This aims to drive up visitors and curiosity.
+- The Instagram link appears centrally on both the index.html and shop.html. webpages. It serves as a visual reminder to check the company's social media account. This aims to drive up visitors and curiosity.
 
 <img src="assets/readme-images/instagram.png">
 
@@ -188,8 +189,8 @@ As shown on the images below, the nav bar has a consistent and clean style. it i
 
 <img src="assets/readme-images/newsletter.png">
 
-- When user successfully complies with promted validation, they are met with the following screen.
-- This screen is taken from Code Institute's _____, for the purpose of showing a successful action.
+- When user successfully complies with prompted validation, they are met with the following screen.
+- This screen is taken from the [Code Institute](https://codeinstitute.net/) template, and is used just for the purpose of showing a successful action.
 
 <img src="assets/readme-images/ci-form.png">
 
@@ -199,11 +200,13 @@ As shown on the images below, the nav bar has a consistent and clean style. it i
 
 <img src="assets/readme-images/messageus.png">
 
-- As with the Newsletter feature, the user will be met with the same Code Institute webpage informing them that the data was inputed succesfully.
+- As with the Newsletter feature, the user will be met with the same Code Institute webpage informing them that the data was input successfully.
 
 <img src="assets/readme-images/ci-form2.png">
 
 #### Google Maps
+
+- [Google Maps](https://www.google.com/maps) was used to provide an interactive map on the Contact Us page. It was embedded as an iframe and then styled further.
 
 
 ## Technologies Used
@@ -229,8 +232,10 @@ As shown on the images below, the nav bar has a consistent and clean style. it i
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-    - Photoshop was used to create the logo, resizing images and editing photos for the website.
+1. [TinyPNG:](https://tinypng.com/)
+    - TinyPNG is used to optimize images used in the project.
+1. [Miscrosoft Paint:](https://support.microsoft.com/en-us/windows/get-microsoft-paint-a6b9578c-ed1c-5b09-0699-4ed8115f9aa9)
+    - Microsoft Paint was used to crop and resize images and editing photos for the project.
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
 
@@ -246,63 +251,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 <img src="assets/readme-images/jigsaw.png">
 
-### Testing User Stories from User Experience (UX) Section
-
--   #### First Time Visitor Goals
-
-    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
-
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Learn More" Call to action button.
-        2. The main points are made immediately with the hero image
-        3. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the organisation.
-
-    2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
-
-        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
-        2. At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
-        3. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
-
-    3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
-        1. Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
-        2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
-        3. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
-
--   #### Returning Visitor Goals
-
-    1. As a Returning Visitor, I want to find the new programming challenges or hackathons.
-
-        1. These are clearly shown in the banner message.
-        2. They will be directed to a page with another hero image and call to action.
-
-    2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-
-        1. The navigation bar clearly highlights the "Contact Us" Page.
-        2. Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
-        3. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
-        4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-        5. The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
-
-    3. As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
-        1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
-        2. Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
-        3. If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.
-
--   #### Frequent User Goals
-
-    1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-
-        1. The user would already be comfortable with the website layout and can easily click the banner message.
-
-    2. As a Frequent User, I want to check to see if there are any new blog posts.
-
-        1. The user would already be comfortable with the website layout and can easily click the blog link
-
-    3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-        1. At the bottom of every page their is a footer which content is consistent throughout all pages.
-        2. To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
-        3. There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
-
-### Testing
+## Testing
 
 Following are the Google Chrome Lighthouse results for each page.
 
@@ -325,16 +274,25 @@ Following are the Google Chrome Lighthouse results for each page.
 
 ### Further Testing
 
--   Testing was prodominantley made using Google Chrome's own developer tools and 'Inspect Mode', although testing was done sporadically on alternative browsers with each major adddition to the website e.g. new content or responsive changes via keyframes.
+-   Testing was predominantly made using Google Chrome's own developer tools and 'Inspect Mode', although testing was done sporadically on alternative browsers with each major addition to the website e.g. new content or responsive changes via keyframes.
 -   The Website was tested on Google Chrome, Mozilla Firefox, Microsoft Edge and Opera browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPad & iPhoneX.
 
 -   I had feedback throughout from Noémie herself, who gave guidance and a critical eye throughout.
 
+### Bug Fixes
+
+-   As seen from the style.css file, there is a lot of custom css. I manually adjusted each screen size and the layout, often times changing the display from flex/flexbox to inline on smaller screens - then adjusting the width of the containers.
+-   There was an issue on the iPad where the navbar would push the white background and links down to cover the 'offer banner' below. This was due to my custom padding settings overriding bootstraps own classes. This was resolved by changing it's property to "width: max-content" on a media query from 768px and up.
+
+-   There was an issue on smaller screens where the footer social media links - via Font Awesome icons - were stacking untidily and creating padding issues. This was resolved by creating a media query to reduce the icon sizes at the relevant breakpoint for smaller screens.
+
+-   Added rel-"noopener" to external links opening in new tabs for securirty purposes.
+
 ### Known Bugs
 
--   The navbar menu links are slightly off-center, although the navbar is responsive and moves with the width of the screen.
--   There is some slight scaling issues when ______
+-   The navbar menu links are slightly off-centre, although the navbar is responsive and moves with the width of the screen.
+-   The footer can rise up when there is a lack of content on a webpage. This is something to consider for future content adjustments.
 
 ## Deployment
 
@@ -387,17 +345,18 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ## Credits
 
 ### Code
--   The 
+-   At the early stages of the development, [Bootstrap4](https://getbootstrap.com/docs/4.6/getting-started/introduction/) code was used to create responsive containers throughout the website. I would use their principal code for building the layout via containers, rows and columns then add my own content, elements or adjust their pre-determined classes.
+Later on in the development I removed the majority of the bootstrap code and built custom sections, containers and content with custom css. This decision was made after viewing [MS1 Preparation and CSS Positioning by Suzy Bennett](https://www.youtube.com/watch?v=N4bhJ4u29Do)'s YouTube video.
 
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): code used from the Bootstrap document/library. Used for navbar and modal. All other sections of the website is my own work and personal tweaking.
+- The navbar keeps Bootstrap's own code, although I have added my own css to it to fit the website layout and responsiveness. I used some of Bootstraps own classes to further customize their default navbar.
 
--   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+### Inspiration
+
+-   The idea of the offer banner found just under the navbar was taken from [Code Institute](https://codeinstitute.net/)'s 'Whiskey Drop' banner although I styled and created the html aspects myself.
 
 ### Content
 
 -   The hero image on the index.html webpage is owned by Noémie Fradette of Bakes by Noémie.
-
--   (https://www.youtube.com/watch?v=N4bhJ4u29Do) MS1 Preparation and CSS Positioning by Suzy Bennett - for help throughout and guide on css layout.
 
 -   https://www.w3schools.com/howto/howto_css_button_on_image.asp
 
@@ -406,11 +365,13 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Media
 
--   All Images were created by the developer.
+-   The images found on the About Us, Meet the Team section were found [here](https://www.pexels.com/photo/woman-with-short-and-curly-hair-smiling-7665706/) [here](https://www.pexels.com/photo/portrait-photo-of-woman-in-sunglasses-and-black-hat-2245383/) and [here](https://www.pexels.com/photo/selective-focus-photo-of-woman-smiling-3936894/).
+
+-   All other Images were created by Noémie Fradette of Bakes by Noémie.
 
 ### Acknowledgements
 
--   My Mentor for continuous helpful feedback.
+-   My Mentor for helpful feedback.
 
 -   Tutor support at Code Institute for their support.
 
